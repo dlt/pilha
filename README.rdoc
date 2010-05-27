@@ -20,7 +20,7 @@ Pilha aims to provide a ActiveRecord like interface for querying the StackExchan
   end
 
   Badge.all # returns all badges
-  User.find_by_badge_id # returns all users awarded by the badge identified with 'id'
+  User.find_by_badge_id(2) # returns all users awarded by the badge identified with 'id'
 
 = License
 
