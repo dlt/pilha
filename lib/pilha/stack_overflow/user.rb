@@ -25,8 +25,9 @@ module StackExchange
 
         attr_reader :client
 
-        def find_by_badge_id(id, query_options = {})
-          response = client.get client.api_method_url('/badges/:id', :id => id, :query => query_options)
+        def find_by_badge_id(id, options = {})
+          options.merge! :id => id
+          response = client.get client.api_method_url('/badges/:id', options)
           users = response['users'].map { |user| User.new(user) }
           response['users'] = users
           OpenStruct.new response

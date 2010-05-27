@@ -24,6 +24,11 @@ describe StackExchange::StackOverflow::Answer do
   it 'should include user association when option :include => :comments' do
     response = StackOverflow::Answer.find_by_id 555, :query => { :comments => true }
     response.answers.first.comments.size.should_not == 1
+    comment = response.answers.first.comments.first
+
+    pp comment
+    comment.id.should == 278816
+
   end
 end
 

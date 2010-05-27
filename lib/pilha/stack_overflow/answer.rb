@@ -22,7 +22,8 @@ module StackExchange
 
         private
           def setup_associations!(response, hash)
-            hash['owner'] = User.new(hash['owner'])
+            setup_comments! hash
+            setup_owner! hash
             answer = Answer.new(hash)
             response['answers'] = [answer]
           end
@@ -31,6 +32,10 @@ module StackExchange
             if hash.key?('comments')
               hash['comments'] = hash['comments'].map {|c| Comment.new c}
             end
+          end
+
+          def setup_owner!(hash)
+            hash['owner'] = User.new(hash['owner'])
           end
       end
 

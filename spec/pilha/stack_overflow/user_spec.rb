@@ -40,7 +40,7 @@ describe StackExchange::StackOverflow::User do
     end
 
     it 'should return the right number of items when pagesize is passed in the query parameters' do
-      response = StackOverflow::User.find_by_badge_id(9, :pagesize => 50)
+      response = StackOverflow::User.find_by_badge_id(9, :query => { :pagesize => 50 })
       response.pagesize.should == 50
       response.users.size.should == 50
     end
