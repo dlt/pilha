@@ -1,0 +1,20 @@
+{
+  "statistics": [
+    {
+      "total_questions": 692539,
+      "total_unanswered": 107245,
+      "total_answers": 1938135,
+      "total_comments": 2724322,
+      "total_votes": 6817279,
+      "total_badges": 699700,
+      "total_users": 247683,
+      "questions_per_minute": 1.78,
+      "answers_per_minute": 3.71,
+      "badges_per_minute": 1.58,
+      "api_version": {
+        "version": "0.8",
+        "revision": "1.0.1234.5678"
+      }
+    }
+  ]
+}

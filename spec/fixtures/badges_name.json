@@ -1,0 +1,400 @@
+{
+  "badges": [
+    {
+      "badge_id": 9,
+      "rank": "bronze",
+      "name": "Autobiographer",
+      "description": "Completed all user profile fields",
+      "award_count": 28066,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/9"
+    },
+    {
+      "badge_id": 30,
+      "rank": "silver",
+      "name": "Beta",
+      "description": "Actively participated in the Stack Overflow private beta",
+      "award_count": 2606,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/30"
+    },
+    {
+      "badge_id": 8,
+      "rank": "bronze",
+      "name": "Citizen Patrol",
+      "description": "First flagged post",
+      "award_count": 5690,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/8"
+    },
+    {
+      "badge_id": 32,
+      "rank": "silver",
+      "name": "Civic Duty",
+      "description": "Voted 300 or more times",
+      "award_count": 4693,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/32"
+    },
+    {
+      "badge_id": 4,
+      "rank": "bronze",
+      "name": "Cleanup",
+      "description": "First rollback",
+      "award_count": 3813,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/4"
+    },
+    {
+      "badge_id": 31,
+      "rank": "bronze",
+      "name": "Commentator",
+      "description": "Left 10 comments",
+      "award_count": 31097,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/31"
+    },
+    {
+      "badge_id": 7,
+      "rank": "bronze",
+      "name": "Critic",
+      "description": "First down vote",
+      "award_count": 25328,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/7"
+    },
+    {
+      "badge_id": 37,
+      "rank": "bronze",
+      "name": "Disciplined",
+      "description": "Deleted own post with score of 3 or higher",
+      "award_count": 1665,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/37"
+    },
+    {
+      "badge_id": 3,
+      "rank": "bronze",
+      "name": "Editor",
+      "description": "First edit",
+      "award_count": 63224,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/3"
+    },
+    {
+      "badge_id": 155,
+      "rank": "gold",
+      "name": "Electorate",
+      "description": "Voted on 600 questions and 25% or more of total votes are on questions",
+      "award_count": 276,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/155"
+    },
+    {
+      "badge_id": 19,
+      "rank": "silver",
+      "name": "Enlightened",
+      "description": "First answer was accepted with score of 10 or more",
+      "award_count": 11407,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/19"
+    },
+    {
+      "badge_id": 71,
+      "rank": "silver",
+      "name": "Enthusiast",
+      "description": "Visited the site each day for 30 consecutive days",
+      "award_count": 6940,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/71"
+    },
+    {
+      "badge_id": 145,
+      "rank": "silver",
+      "name": "Epic",
+      "description": "Hit the daily reputation cap on 50 days",
+      "award_count": 86,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/145"
+    },
+    {
+      "badge_id": 28,
+      "rank": "gold",
+      "name": "Famous Question",
+      "description": "Asked a question with 10,000 views",
+      "award_count": 1063,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/28"
+    },
+    {
+      "badge_id": 83,
+      "rank": "gold",
+      "name": "Fanatic",
+      "description": "Visited the site each day for 100 consecutive days",
+      "award_count": 937,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/83"
+    },
+    {
+      "badge_id": 33,
+      "rank": "silver",
+      "name": "Favorite Question",
+      "description": "Question favorited by 25 users",
+      "award_count": 1082,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/33"
+    },
+    {
+      "badge_id": 15,
+      "rank": "silver",
+      "name": "Generalist",
+      "description": "Provided non-wiki answers of 15 total score in 20 of top 40 tags",
+      "award_count": 133,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/15"
+    },
+    {
+      "badge_id": 24,
+      "rank": "silver",
+      "name": "Good Answer",
+      "description": "Answer score of 25 or more",
+      "award_count": 9093,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/24"
+    },
+    {
+      "badge_id": 21,
+      "rank": "silver",
+      "name": "Good Question",
+      "description": "Question score of 25 or more",
+      "award_count": 2268,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/21"
+    },
+    {
+      "badge_id": 25,
+      "rank": "gold",
+      "name": "Great Answer",
+      "description": "Answer score of 100 or more",
+      "award_count": 1020,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/25"
+    },
+    {
+      "badge_id": 22,
+      "rank": "gold",
+      "name": "Great Question",
+      "description": "Question score of 100 or more",
+      "award_count": 197,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/22"
+    },
+    {
+      "badge_id": 18,
+      "rank": "silver",
+      "name": "Guru",
+      "description": "Accepted answer and score of 40 or more",
+      "award_count": 1128,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/18"
+    },
+    {
+      "badge_id": 146,
+      "rank": "gold",
+      "name": "Legendary",
+      "description": "Hit the daily reputation cap on 150 days",
+      "award_count": 18,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/146"
+    },
+    {
+      "badge_id": 144,
+      "rank": "bronze",
+      "name": "Mortarboard",
+      "description": "Hit the daily reputation cap for the first time",
+      "award_count": 4128,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/144"
+    },
+    {
+      "badge_id": 17,
+      "rank": "silver",
+      "name": "Necromancer",
+      "description": "Answered a question more than 60 days later with score of 5 or more",
+      "award_count": 4894,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/17"
+    },
+    {
+      "badge_id": 23,
+      "rank": "bronze",
+      "name": "Nice Answer",
+      "description": "Answer score of 10 or more",
+      "award_count": 55511,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/23"
+    },
+    {
+      "badge_id": 20,
+      "rank": "bronze",
+      "name": "Nice Question",
+      "description": "Question score of 10 or more",
+      "award_count": 13355,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/20"
+    },
+    {
+      "badge_id": 27,
+      "rank": "silver",
+      "name": "Notable Question",
+      "description": "Asked a question with 2,500 views",
+      "award_count": 14373,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/27"
+    },
+    {
+      "badge_id": 5,
+      "rank": "bronze",
+      "name": "Organizer",
+      "description": "First retag",
+      "award_count": 12069,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/5"
+    },
+    {
+      "badge_id": 38,
+      "rank": "bronze",
+      "name": "Peer Pressure",
+      "description": "Deleted own post with score of -3 or lower",
+      "award_count": 2965,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/38"
+    },
+    {
+      "badge_id": 26,
+      "rank": "bronze",
+      "name": "Popular Question",
+      "description": "Asked a question with 1,000 views",
+      "award_count": 51937,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/26"
+    },
+    {
+      "badge_id": 62,
+      "rank": "gold",
+      "name": "Populist",
+      "description": "Answer outscored an accepted answer with score of more than 10 by more than 2x",
+      "award_count": 344,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/62"
+    },
+    {
+      "badge_id": 94,
+      "rank": "silver",
+      "name": "Pundit",
+      "description": "Left 10 comments with score of 10 or more",
+      "award_count": 83,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/94"
+    },
+    {
+      "badge_id": 95,
+      "rank": "gold",
+      "name": "Reversal",
+      "description": "Provided answer of +20 score to a question of -5 score",
+      "award_count": 38,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/95"
+    },
+    {
+      "badge_id": 10,
+      "rank": "bronze",
+      "name": "Scholar",
+      "description": "Asked a question and accepted an answer",
+      "award_count": 69357,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/10"
+    },
+    {
+      "badge_id": 14,
+      "rank": "bronze",
+      "name": "Self-Learner",
+      "description": "Answered your own question with score of 3 or more",
+      "award_count": 3841,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/14"
+    },
+    {
+      "badge_id": 36,
+      "rank": "gold",
+      "name": "Stellar Question",
+      "description": "Question favorited by 100 users",
+      "award_count": 153,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/36"
+    },
+    {
+      "badge_id": 12,
+      "rank": "silver",
+      "name": "Strunk & White",
+      "description": "Edited 100 entries",
+      "award_count": 649,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/12"
+    },
+    {
+      "badge_id": 2,
+      "rank": "bronze",
+      "name": "Student",
+      "description": "Asked first question with at least one up vote",
+      "award_count": 85755,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/2"
+    },
+    {
+      "badge_id": 6,
+      "rank": "bronze",
+      "name": "Supporter",
+      "description": "First up vote",
+      "award_count": 61321,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/6"
+    },
+    {
+      "badge_id": 11,
+      "rank": "silver",
+      "name": "Taxonomist",
+      "description": "Created a tag used by 50 questions",
+      "award_count": 2083,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/11"
+    },
+    {
+      "badge_id": 1,
+      "rank": "bronze",
+      "name": "Teacher",
+      "description": "Answered first question with score of 1 or more",
+      "award_count": 71525,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/1"
+    },
+    {
+      "badge_id": 63,
+      "rank": "bronze",
+      "name": "Tumbleweed",
+      "description": "Asked a question with no answers, no comments, and low views for a week",
+      "award_count": 23224,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/63"
+    },
+    {
+      "badge_id": 13,
+      "rank": "silver",
+      "name": "Yearling",
+      "description": "Active member for a year, earning at least 200 reputation",
+      "award_count": 19443,
+      "tag_based": false,
+      "badges_recipients_url": "/badges/13"
+    }
+  ]
+}
