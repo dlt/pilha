@@ -5,9 +5,9 @@ require 'open-uri'
 require 'json'
 require 'forwardable'
 
-require 'stack_exchange/stack_overflow/statistics'
-require 'stack_exchange/stack_overflow/badge'
-require 'stack_exchange/stack_overflow/user'
+require 'pilha/stack_overflow/statistics'
+require 'pilha/stack_overflow/badge'
+require 'pilha/stack_overflow/user'
 
 module StackExchange
 

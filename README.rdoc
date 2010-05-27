@@ -1,14 +1,18 @@
-= Stack Exchange
+= Pilha
 
 A object oriented wrapper for the StackExchange/StackOverflow API
 
+== Why such a strange name?
+
+'Pilha'(pronounced peeleeah) means 'stack' in portuguese.
+
 == Instalation
 
-  gem install stack_exchange
+  gem install pilha
 
 == Example
 
-StackExchange aims to provide a ActiveRecord like interface for querying the StackExchange API.
+Pilha aims to provide a ActiveRecord like interface for querying the StackExchange API.
 
   User.all # returns all users
   User.find_by_badge_id # returns all users awarded by the badge identified with 'id'
