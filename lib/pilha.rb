@@ -1,8 +1,9 @@
 path = File.expand_path(File.dirname(__FILE__))
 $LOAD_PATH.unshift(path) unless $LOAD_PATH.include?(path)
 
-require 'open-uri'
+require 'zlib'
 require 'json'
+require 'open-uri'
 require 'forwardable'
 
 require 'pilha/stack_overflow/statistics'
@@ -60,7 +61,7 @@ module StackExchange
       end
 
       def get(url)
-        stream = open(url) { |stream| stream.read }
+        stream = open(url) { |stream| Zlib::GzipReader.new(stream).read }
         JSON.parse stream
       end
 

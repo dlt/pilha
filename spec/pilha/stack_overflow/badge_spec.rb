@@ -31,7 +31,6 @@ describe StackExchange::StackOverflow::Badge do
       first_tag_based.award_count.should == 1
       first_tag_based.tag_based.should be_true
       first_tag_based.badges_recipients_url.should == "/badges/204"
-
     end
   end
 end

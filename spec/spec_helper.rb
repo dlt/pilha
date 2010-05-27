@@ -14,7 +14,7 @@ FakeWeb.allow_net_connect = false
 
 def register(options)
   url = api_method_url(options[:url])
-  FakeWeb.register_uri(:get, url, :body => read_fixture(options[:body] + '.json'))
+  FakeWeb.register_uri(:get, url, :body => read_fixture(options[:body] + '.json.gz'))
 end
 
 def read_fixture(fixture)
