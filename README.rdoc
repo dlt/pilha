@@ -22,12 +22,6 @@ Pilha aims to provide a ActiveRecord like interface for querying the StackExchan
   Badge.all # returns all badges
   User.find_by_badge_id # returns all users awarded by the badge identified with 'id'
 
-If you need to setup any extra configuration such as setting your StackExchange API key, just documentation
-
-  StackExchange::StackOverflow.config do |options|
-    options.key = 'your key'
-  end
-
 = License
 
 (The MIT License)
