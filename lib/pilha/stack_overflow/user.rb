@@ -13,25 +13,35 @@ module StackExchange
                                :user_mentioned_url, :user_comments_url, :user_reputation_url,
                                :badge_counts
 
+      class << self 
+
+        attr_reader :client
+
+        def all(options = {})
+          response = client.request('/users', options)
+          OpenStruct.new(parse response)
+        end
+
+        def find_by_badge_id(id, options = {})
+          options.merge! :id => id
+          response = client.request('/badges/:id', options)
+          OpenStruct.new(parse response)
+        end
+
+        private
+          def parse(response)
+            users = response['users'].map { |user| User.new(user) }
+            response['users'] = users
+            response
+          end
+      end
+
       def initialize(hash)
         @struct = OpenStruct.new hash
       end
 
       def id
         @struct.user_id
-      end
-
-      class << self 
-
-        attr_reader :client
-
-        def find_by_badge_id(id, options = {})
-          options.merge! :id => id
-          response = client.request('/badges/:id', options)
-          users = response['users'].map { |user| User.new(user) }
-          response['users'] = users
-          OpenStruct.new response
-        end
       end
     end
   end
