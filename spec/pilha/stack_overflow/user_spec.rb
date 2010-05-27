@@ -44,4 +44,9 @@ describe StackExchange::StackOverflow::User do
       response.pagesize.should == 50
       response.users.size.should == 50
     end
+
+    it 'should find a user by its id' do
+      response = StackOverflow::User.find 555
+      user = response.first.user
+    end
 end

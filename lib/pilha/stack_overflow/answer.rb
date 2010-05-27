@@ -10,10 +10,10 @@ module StackExchange
       class << self
         attr_reader :client
 
-        def find_by_id(id, options = {})
+        def find(id, options = {})
           options.merge! :id => id
           response = client.request('/answers/:id', options)
-          OpenStruct.new(parse response)
+          response.answers.first
         end
 
         def find_by_user_id(id, options = {})

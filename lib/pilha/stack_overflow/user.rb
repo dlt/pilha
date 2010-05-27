@@ -28,6 +28,13 @@ module StackExchange
           OpenStruct.new(parse response)
         end
 
+        def find(id, options = {})
+          options.merge! :id => id
+          response = client.request('/users/:id', options)
+          OpenStruct.new(parse response)
+        end
+
+
         private
           def parse(response)
             users = response['users'].map { |user| User.new(user) }
