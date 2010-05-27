@@ -22,9 +22,10 @@ module StackExchange
 
       class << self 
         def config &block
-          options = {}
+          options = OpenStruct.new
           yield options if block_given?
-          client = new(options)
+
+          client = Client.new(options)
           include_client(client, Badge, Statistics, User)
         end
 
@@ -35,10 +36,10 @@ module StackExchange
         end
       end
 
-      def initialize(options = {})
-        @url = normalize(options[:url] || URL )
-        @api_version = options[:api_version] || options[:version] || API_VERSION
-        @api_key = options[:api_key] || options[:key]
+      def initialize(options = OpenStruct.new)
+        @url = normalize(options.url || URL )
+        @api_version = options.api_version || API_VERSION
+        @api_key = options.api_key 
       end
 
       def api_method_path(pattern, options = {})
@@ -48,7 +49,6 @@ module StackExchange
         parts.each do |part|
           key = part.sub(':', '').intern
           pattern.sub!(part, options[key].to_s)
-          options.delete key
         end
 
         pattern

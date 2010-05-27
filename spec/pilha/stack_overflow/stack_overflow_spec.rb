@@ -33,15 +33,15 @@ describe StackOverflow::Client do
       @old_url = @client.url 
 
       StackOverflow::Client.config do |options|
-        options[:url] = 'http://test.it'
-        options[:api_version] = '666'
-        options[:api_key] = 'key1234'
+        options.url = 'http://test.it'
+        options.api_version = '666'
+        options.api_key = 'key1234'
       end
     end
 
     after do
       StackOverflow::Client.config do |options|
-        options[:url] = @old_url
+        options.url = @old_url
       end
     end
 

@@ -5,7 +5,7 @@
       "rank": "bronze",
       "name": "Autobiographer",
       "description": "Completed all user profile fields",
-      "award_count": 28066,
+      "award_count": 28101,
       "tag_based": false,
       "badges_recipients_url": "/badges/9"
     },
@@ -23,7 +23,7 @@
       "rank": "bronze",
       "name": "Citizen Patrol",
       "description": "First flagged post",
-      "award_count": 5690,
+      "award_count": 5693,
       "tag_based": false,
       "badges_recipients_url": "/badges/8"
     },
@@ -32,7 +32,7 @@
       "rank": "silver",
       "name": "Civic Duty",
       "description": "Voted 300 or more times",
-      "award_count": 4693,
+      "award_count": 4696,
       "tag_based": false,
       "badges_recipients_url": "/badges/32"
     },
@@ -41,7 +41,7 @@
       "rank": "bronze",
       "name": "Cleanup",
       "description": "First rollback",
-      "award_count": 3813,
+      "award_count": 3816,
       "tag_based": false,
       "badges_recipients_url": "/badges/4"
     },
@@ -50,7 +50,7 @@
       "rank": "bronze",
       "name": "Commentator",
       "description": "Left 10 comments",
-      "award_count": 31097,
+      "award_count": 31143,
       "tag_based": false,
       "badges_recipients_url": "/badges/31"
     },
@@ -59,7 +59,7 @@
       "rank": "bronze",
       "name": "Critic",
       "description": "First down vote",
-      "award_count": 25328,
+      "award_count": 25349,
       "tag_based": false,
       "badges_recipients_url": "/badges/7"
     },
@@ -68,7 +68,7 @@
       "rank": "bronze",
       "name": "Disciplined",
       "description": "Deleted own post with score of 3 or higher",
-      "award_count": 1665,
+      "award_count": 1666,
       "tag_based": false,
       "badges_recipients_url": "/badges/37"
     },
@@ -77,7 +77,7 @@
       "rank": "bronze",
       "name": "Editor",
       "description": "First edit",
-      "award_count": 63224,
+      "award_count": 63350,
       "tag_based": false,
       "badges_recipients_url": "/badges/3"
     },
@@ -86,7 +86,7 @@
       "rank": "gold",
       "name": "Electorate",
       "description": "Voted on 600 questions and 25% or more of total votes are on questions",
-      "award_count": 276,
+      "award_count": 279,
       "tag_based": false,
       "badges_recipients_url": "/badges/155"
     },
@@ -95,7 +95,7 @@
       "rank": "silver",
       "name": "Enlightened",
       "description": "First answer was accepted with score of 10 or more",
-      "award_count": 11407,
+      "award_count": 11424,
       "tag_based": false,
       "badges_recipients_url": "/badges/19"
     },
@@ -104,7 +104,7 @@
       "rank": "silver",
       "name": "Enthusiast",
       "description": "Visited the site each day for 30 consecutive days",
-      "award_count": 6940,
+      "award_count": 6941,
       "tag_based": false,
       "badges_recipients_url": "/badges/71"
     },
@@ -113,7 +113,7 @@
       "rank": "silver",
       "name": "Epic",
       "description": "Hit the daily reputation cap on 50 days",
-      "award_count": 86,
+      "award_count": 87,
       "tag_based": false,
       "badges_recipients_url": "/badges/145"
     },
@@ -122,7 +122,7 @@
       "rank": "gold",
       "name": "Famous Question",
       "description": "Asked a question with 10,000 views",
-      "award_count": 1063,
+      "award_count": 1075,
       "tag_based": false,
       "badges_recipients_url": "/badges/28"
     },
@@ -140,7 +140,7 @@
       "rank": "silver",
       "name": "Favorite Question",
       "description": "Question favorited by 25 users",
-      "award_count": 1082,
+      "award_count": 1085,
       "tag_based": false,
       "badges_recipients_url": "/badges/33"
     },
@@ -158,7 +158,7 @@
       "rank": "silver",
       "name": "Good Answer",
       "description": "Answer score of 25 or more",
-      "award_count": 9093,
+      "award_count": 9102,
       "tag_based": false,
       "badges_recipients_url": "/badges/24"
     },
@@ -167,7 +167,7 @@
       "rank": "silver",
       "name": "Good Question",
       "description": "Question score of 25 or more",
-      "award_count": 2268,
+      "award_count": 2275,
       "tag_based": false,
       "badges_recipients_url": "/badges/21"
     },
@@ -194,7 +194,7 @@
       "rank": "silver",
       "name": "Guru",
       "description": "Accepted answer and score of 40 or more",
-      "award_count": 1128,
+      "award_count": 1133,
       "tag_based": false,
       "badges_recipients_url": "/badges/18"
     },
@@ -212,7 +212,7 @@
       "rank": "bronze",
       "name": "Mortarboard",
       "description": "Hit the daily reputation cap for the first time",
-      "award_count": 4128,
+      "award_count": 4135,
       "tag_based": false,
       "badges_recipients_url": "/badges/144"
     },
@@ -221,7 +221,7 @@
       "rank": "silver",
       "name": "Necromancer",
       "description": "Answered a question more than 60 days later with score of 5 or more",
-      "award_count": 4894,
+      "award_count": 4905,
       "tag_based": false,
       "badges_recipients_url": "/badges/17"
     },
@@ -230,7 +230,7 @@
       "rank": "bronze",
       "name": "Nice Answer",
       "description": "Answer score of 10 or more",
-      "award_count": 55511,
+      "award_count": 55585,
       "tag_based": false,
       "badges_recipients_url": "/badges/23"
     },
@@ -239,7 +239,7 @@
       "rank": "bronze",
       "name": "Nice Question",
       "description": "Question score of 10 or more",
-      "award_count": 13355,
+      "award_count": 13382,
       "tag_based": false,
       "badges_recipients_url": "/badges/20"
     },
@@ -248,7 +248,7 @@
       "rank": "silver",
       "name": "Notable Question",
       "description": "Asked a question with 2,500 views",
-      "award_count": 14373,
+      "award_count": 14428,
       "tag_based": false,
       "badges_recipients_url": "/badges/27"
     },
@@ -257,7 +257,7 @@
       "rank": "bronze",
       "name": "Organizer",
       "description": "First retag",
-      "award_count": 12069,
+      "award_count": 12073,
       "tag_based": false,
       "badges_recipients_url": "/badges/5"
     },
@@ -266,7 +266,7 @@
       "rank": "bronze",
       "name": "Peer Pressure",
       "description": "Deleted own post with score of -3 or lower",
-      "award_count": 2965,
+      "award_count": 2968,
       "tag_based": false,
       "badges_recipients_url": "/badges/38"
     },
@@ -275,7 +275,7 @@
       "rank": "bronze",
       "name": "Popular Question",
       "description": "Asked a question with 1,000 views",
-      "award_count": 51937,
+      "award_count": 52055,
       "tag_based": false,
       "badges_recipients_url": "/badges/26"
     },
@@ -284,7 +284,7 @@
       "rank": "gold",
       "name": "Populist",
       "description": "Answer outscored an accepted answer with score of more than 10 by more than 2x",
-      "award_count": 344,
+      "award_count": 345,
       "tag_based": false,
       "badges_recipients_url": "/badges/62"
     },
@@ -293,7 +293,7 @@
       "rank": "silver",
       "name": "Pundit",
       "description": "Left 10 comments with score of 10 or more",
-      "award_count": 83,
+      "award_count": 84,
       "tag_based": false,
       "badges_recipients_url": "/badges/94"
     },
@@ -311,7 +311,7 @@
       "rank": "bronze",
       "name": "Scholar",
       "description": "Asked a question and accepted an answer",
-      "award_count": 69357,
+      "award_count": 69466,
       "tag_based": false,
       "badges_recipients_url": "/badges/10"
     },
@@ -320,7 +320,7 @@
       "rank": "bronze",
       "name": "Self-Learner",
       "description": "Answered your own question with score of 3 or more",
-      "award_count": 3841,
+      "award_count": 3851,
       "tag_based": false,
       "badges_recipients_url": "/badges/14"
     },
@@ -338,7 +338,7 @@
       "rank": "silver",
       "name": "Strunk & White",
       "description": "Edited 100 entries",
-      "award_count": 649,
+      "award_count": 650,
       "tag_based": false,
       "badges_recipients_url": "/badges/12"
     },
@@ -347,7 +347,7 @@
       "rank": "bronze",
       "name": "Student",
       "description": "Asked first question with at least one up vote",
-      "award_count": 85755,
+      "award_count": 85962,
       "tag_based": false,
       "badges_recipients_url": "/badges/2"
     },
@@ -356,7 +356,7 @@
       "rank": "bronze",
       "name": "Supporter",
       "description": "First up vote",
-      "award_count": 61321,
+      "award_count": 61402,
       "tag_based": false,
       "badges_recipients_url": "/badges/6"
     },
@@ -365,7 +365,7 @@
       "rank": "silver",
       "name": "Taxonomist",
       "description": "Created a tag used by 50 questions",
-      "award_count": 2083,
+      "award_count": 2085,
       "tag_based": false,
       "badges_recipients_url": "/badges/11"
     },
@@ -374,7 +374,7 @@
       "rank": "bronze",
       "name": "Teacher",
       "description": "Answered first question with score of 1 or more",
-      "award_count": 71525,
+      "award_count": 71655,
       "tag_based": false,
       "badges_recipients_url": "/badges/1"
     },
@@ -383,7 +383,7 @@
       "rank": "bronze",
       "name": "Tumbleweed",
       "description": "Asked a question with no answers, no comments, and low views for a week",
-      "award_count": 23224,
+      "award_count": 23318,
       "tag_based": false,
       "badges_recipients_url": "/badges/63"
     },
@@ -392,7 +392,7 @@
       "rank": "silver",
       "name": "Yearling",
       "description": "Active member for a year, earning at least 200 reputation",
-      "award_count": 19443,
+      "award_count": 19478,
       "tag_based": false,
       "badges_recipients_url": "/badges/13"
     }

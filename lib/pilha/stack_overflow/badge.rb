@@ -10,10 +10,16 @@ module StackExchange
       class << self 
         attr_reader :client
 
-        def all
-          response = client.get client.api_method_url('/badges')
+        def all(options = {})
+          method = select_method options
+          response = client.get client.api_method_url(method)
           badges = response['badges']
           badges.map { |badge| Badge.new badge }
+        end
+
+        def select_method(options)
+          tag_based = options[:tag_based] || options['tag_based']
+          tag_based ? '/badges/tags' : '/badges'
         end
       end
 
@@ -24,6 +30,7 @@ module StackExchange
       def id
         @struct.badge_id
       end
+
     end
   end
 end
