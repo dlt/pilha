@@ -25,10 +25,16 @@ describe StackExchange::StackOverflow::Answer do
     response = StackOverflow::Answer.find_by_id 555, :query => { :comments => true }
     response.answers.first.comments.size.should_not == 1
     comment = response.answers.first.comments.first
-
-    pp comment
     comment.id.should == 278816
+  end
 
+  it 'should find all answers associated to a user' do
+    response = StackOverflow::Answer.find_by_user_id 1
+
+    response.answers.size.should == 30
+    response.total.should == 165
+    first_answer = response.answers.first
+    first_answer.answer_id.should == 1250987
   end
 end
 

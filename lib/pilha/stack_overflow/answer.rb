@@ -12,30 +12,46 @@ module StackExchange
 
         def find_by_id(id, options = {})
           options.merge! :id => id
-          response = client.get client.api_method_url('/answers/:id', options)
-          
-          answer_hash = response['answers'].first
+          response = client.request('/answers/:id', options)
+          OpenStruct.new(parse response)
+        end
 
-          setup_associations!(response, answer_hash)
-          OpenStruct.new(response)
+        def find_by_user_id(id, options = {})
+          options.merge! :id => id
+          response = client.request('/users/:id/answers', options)
+          OpenStruct.new(parse response)
         end
 
         private
           def setup_associations!(response, hash)
             setup_comments! hash
             setup_owner! hash
-            answer = Answer.new(hash)
-            response['answers'] = [answer]
           end
 
           def setup_comments!(hash)
-            if hash.key?('comments')
-              hash['comments'] = hash['comments'].map {|c| Comment.new c}
+            if hash['comments']
+              hash['comments'] = hash['comments'].map {|c| Comment.new c }
             end
           end
 
           def setup_owner!(hash)
-            hash['owner'] = User.new(hash['owner'])
+            if hash['owner']
+              hash['owner'] = User.new(hash['owner'])
+            end
+          end
+
+          def setup_answers!(response)
+            if response['answers']
+              response['answers'] = response['answers'].map { |a| Answer.new a }
+            end
+          end
+
+          def parse(response)
+            response['answers'].each do |answer_hash|
+              setup_associations!(response, answer_hash)
+            end
+            setup_answers! response
+            response
           end
       end
 

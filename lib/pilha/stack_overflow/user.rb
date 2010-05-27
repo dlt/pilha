@@ -27,7 +27,7 @@ module StackExchange
 
         def find_by_badge_id(id, options = {})
           options.merge! :id => id
-          response = client.get client.api_method_url('/badges/:id', options)
+          response = client.request('/badges/:id', options)
           users = response['users'].map { |user| User.new(user) }
           response['users'] = users
           OpenStruct.new response

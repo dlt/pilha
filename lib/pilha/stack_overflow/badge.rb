@@ -12,7 +12,7 @@ module StackExchange
 
         def all(options = {})
           method = select_method options
-          response = client.get client.api_method_url(method)
+          response = client.request(method, options)
           badges = response['badges']
           badges.map { |badge| Badge.new badge }
         end

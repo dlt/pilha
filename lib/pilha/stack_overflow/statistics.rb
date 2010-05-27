@@ -17,8 +17,8 @@ module StackExchange
       class << self
         attr_reader :client
 
-        def all
-          response = client.get client.api_method_url('/stats')
+        def all(options = {})
+          response = client.request('/stats', options)
           stats = response['statistics'].first
           Statistics.new stats
         end

@@ -71,6 +71,10 @@ module StackExchange
         url + api_version
       end
 
+      def request(path, options)
+        get(api_method_url(path, options))
+      end
+
       private
         def key?
           !!@api_key 
@@ -79,6 +83,7 @@ module StackExchange
         def query_string(options)
           params = options[:query]
           if params
+            params = params.sort_by { |k, v| k.to_s }
             '?' + params.inject([]) do |arr, (key, value)|
               arr << "#{key}=#{value}"
             end.join('&')

@@ -11,7 +11,7 @@ module StackExchange
 
         def find_by_id(id, options = {})
           options.merge! :id => id
-          response = client.get client.api_method_url('/comments/:id/', options)
+          response = client.request('/comments/:id/', options)
 
           comment = Comment.new(response['comments'].first)
           response['comments'] = [comment]
