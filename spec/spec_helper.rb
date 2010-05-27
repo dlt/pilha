@@ -32,3 +32,4 @@ end
 register(:url => 'badges/9/', :body => 'badges_by_id')
 register(:url => 'badges/9/?pagesize=50', :body => 'badges_by_id_page2')
 register(:url => 'badges/tags/', :body => 'badges_tag_based')
+register(:url => 'answers/666/', :body => 'answers_by_id')

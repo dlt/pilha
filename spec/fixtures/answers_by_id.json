@@ -1,0 +1,28 @@
+{
+  "total": 1,
+  "page": 1,
+  "pagesize": 30,
+  "answers": [
+    {
+      "answer_id": 666,
+      "accepted": false,
+      "answer_comments_url": "/answers/666/comments",
+      "question_id": 664,
+      "owner": {
+        "user_id": 58,
+        "user_type": "registered",
+        "display_name": "cmcculloh",
+        "reputation": 2903,
+        "email_hash": "298e0497aa6b76a573f17e6a2bb22dec"
+      },
+      "creation_date": 1217766782,
+      "last_activity_date": 1217766782,
+      "up_vote_count": 21,
+      "down_vote_count": 0,
+      "view_count": 1028,
+      "score": 21,
+      "community_owned": false,
+      "title": "What level of programming should I have to contribute to open source?"
+    }
+  ]
+}

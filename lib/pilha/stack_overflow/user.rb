@@ -17,6 +17,10 @@ module StackExchange
         @struct = OpenStruct.new hash
       end
 
+      def id
+        @struct.user_id
+      end
+
       class << self 
 
         attr_reader :client
