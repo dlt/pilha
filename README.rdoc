@@ -14,7 +14,12 @@ A object oriented wrapper for the StackExchange/StackOverflow API
 
 Pilha aims to provide a ActiveRecord like interface for querying the StackExchange API.
 
-  User.all # returns all users
+  include StackExchange::StackOverflow
+  StackExchange::StackOverflow::Client.config do |options|
+    options.api_key = 'your_key' #optional
+  end
+
+  Badge.all # returns all badges
   User.find_by_badge_id # returns all users awarded by the badge identified with 'id'
 
 If you need to setup any extra configuration such as setting your StackExchange API key, just documentation
