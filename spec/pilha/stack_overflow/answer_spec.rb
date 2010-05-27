@@ -21,7 +21,8 @@ describe StackExchange::StackOverflow::Answer do
     user.email_hash.should == "298e0497aa6b76a573f17e6a2bb22dec"
   end
 
-  it 'should include user association when option :include => :user' do
+  it 'should include user association when option :include => :comments' do
+    pending
   end
 end
 

@@ -1,0 +1,37 @@
+{
+  "total": 2,
+  "page": 1,
+  "pagesize": 30,
+  "comments": [
+    {
+      "comment_id": 303010,
+      "creation_date": 1233120361,
+      "owner": {
+        "user_id": 26,
+        "user_type": "registered",
+        "display_name": "Shawn Simon",
+        "reputation": 4848,
+        "email_hash": "f878a55e08bacee0af48852c29a02dc7"
+      },
+      "post_id": 555,
+      "post_type": "answer",
+      "score": 0,
+      "body": "a lot of this stuff is situational. i tend not to use session cookies at all. cookies getting hijacked is almost always the servers fault. man in the middle / packet sniffing arent that common"
+    },
+    {
+      "comment_id": 278816,
+      "creation_date": 1232410823,
+      "owner": {
+        "user_id": 13834,
+        "user_type": "registered",
+        "display_name": "Kevin Loney",
+        "reputation": 1971,
+        "email_hash": "10f6e15abcf7ed8ca175fd8507e3c19b"
+      },
+      "post_id": 555,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Given the recent MITM vulnerability surrounding signed SSL certificates (<a href=\"https://blog.startcom.org/?p=145\" rel=\"nofollow\">blog.startcom.org/?p=145</a>) so a combination of SSL and some kind of Challenge response authentication (There are alternatives to SRP) is probably a better solution."
+    }
+  ]
+}

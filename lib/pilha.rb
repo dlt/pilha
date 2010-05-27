@@ -10,6 +10,7 @@ require 'pilha/stack_overflow/statistics'
 require 'pilha/stack_overflow/badge'
 require 'pilha/stack_overflow/user'
 require 'pilha/stack_overflow/answer'
+require 'pilha/stack_overflow/comment'
 
 module StackExchange
 
@@ -28,7 +29,7 @@ module StackExchange
           yield options if block_given?
 
           client = Client.new(options)
-          include_client(client, Badge, Statistics, User, Answer)
+          include_client(client, Badge, Statistics, User, Answer, Comment)
         end
 
         def include_client(client, *classes)
