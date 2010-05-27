@@ -21,8 +21,8 @@ describe StackExchange::StackOverflow::Answer do
     user.email_hash.should == "298e0497aa6b76a573f17e6a2bb22dec"
   end
 
-  it 'should include user association when option :include => :comments' do
-    response = StackOverflow::Answer.find_by_id 555, :query => { :comments => true }
+  it 'should include comments associations' do
+    response = StackOverflow::Answer.find_by_id 555
     response.answers.first.comments.size.should_not == 1
     comment = response.answers.first.comments.first
     comment.id.should == 278816
@@ -35,6 +35,15 @@ describe StackExchange::StackOverflow::Answer do
     response.total.should == 165
     first_answer = response.answers.first
     first_answer.answer_id.should == 1250987
+  end
+
+  it 'should find all answers associated to a question' do
+    response = StackOverflow::Answer.find_by_question_id(549)
+    response.answers.size.should == 20
+
+    first_answer = response.answers.first
+    first_answer.id.should == 2801312
+    first_answer.accepted.should be_false
   end
 end
 

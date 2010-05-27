@@ -22,6 +22,12 @@ module StackExchange
           OpenStruct.new(parse response)
         end
 
+        def find_by_question_id(id, options = {})
+          options.merge! :id => id
+          response = client.request('/questions/:id/answers', options)
+          OpenStruct.new(parse response)
+        end
+
         private
           def setup_associations!(response, hash)
             setup_comments! hash
