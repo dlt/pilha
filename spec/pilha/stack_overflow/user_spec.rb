@@ -46,7 +46,13 @@ describe StackExchange::StackOverflow::User do
     end
 
     it 'should find a user by its id' do
-      response = StackOverflow::User.find 555
-      user = response.first.user
+      user = StackOverflow::User.find 555
+      user.id.should == 555
+      user.user_type.should == "registered"
+      user.creation_date.should == 1218041039
+      user.display_name == "Hunter"
+      user.reputation.should == 980
+      user.email_hash.should == "fed6c543fa3473193cecf34d0ccb1b77"
+      user.age.should == 30
     end
 end

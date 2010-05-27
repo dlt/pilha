@@ -3,11 +3,8 @@ require 'spec_helper'
 describe StackExchange::StackOverflow::Answer do 
 
   it 'should return a answer identified by its id' do
-    response = StackOverflow::Answer.find_by_id(666)
-    response.total.should == 1
-    response.pagesize.should == 30
+    answer = StackOverflow::Answer.find(666)
 
-    answer = response.answers.first
     answer.id.should == 666
     answer.accepted.should be_false
     answer.answer_comments_url.should == "/answers/666/comments"
@@ -22,9 +19,9 @@ describe StackExchange::StackOverflow::Answer do
   end
 
   it 'should include comments associations' do
-    response = StackOverflow::Answer.find_by_id 555
-    response.answers.first.comments.size.should_not == 1
-    comment = response.answers.first.comments.first
+    answer = StackOverflow::Answer.find 555
+    answer.comments.size.should_not == 1
+    comment = answer.comments.first
     comment.id.should == 278816
   end
 

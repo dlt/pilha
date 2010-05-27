@@ -1,0 +1,40 @@
+{
+  "total": 1,
+  "page": 1,
+  "pagesize": 30,
+  "users": [
+    {
+      "user_id": 555,
+      "user_type": "registered",
+      "creation_date": 1218041039,
+      "display_name": "Hunter",
+      "reputation": 980,
+      "email_hash": "fed6c543fa3473193cecf34d0ccb1b77",
+      "age": 30,
+      "last_access_date": 1274807905,
+      "website_url": "http://www.hanchorllc.com",
+      "location": "Santa Barbara, CA",
+      "about_me": "",
+      "question_count": 6,
+      "answer_count": 29,
+      "view_count": 110,
+      "up_vote_count": 18,
+      "down_vote_count": 7,
+      "accept_rate": 100,
+      "user_questions_url": "/users/555/questions",
+      "user_answers_url": "/users/555/answers",
+      "user_favorites_url": "/users/555/favorites",
+      "user_tags_url": "/users/555/tags",
+      "user_badges_url": "/users/555/badges",
+      "user_timeline_url": "/users/555/timeline",
+      "user_mentioned_url": "/users/555/mentioned",
+      "user_comments_url": "/users/555/comments",
+      "user_reputation_url": "/users/555/reputation",
+      "badge_counts": {
+        "gold": 0,
+        "silver": 2,
+        "bronze": 10
+      }
+    }
+  ]
+}

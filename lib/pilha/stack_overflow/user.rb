@@ -18,28 +18,25 @@ module StackExchange
         attr_reader :client
 
         def all(options = {})
-          response = client.request('/users', options)
-          OpenStruct.new(parse response)
+          parse client.request('/users', options)
         end
 
         def find_by_badge_id(id, options = {})
           options.merge! :id => id
-          response = client.request('/badges/:id', options)
-          OpenStruct.new(parse response)
+          parse client.request('/badges/:id', options)
         end
 
         def find(id, options = {})
           options.merge! :id => id
           response = client.request('/users/:id', options)
-          OpenStruct.new(parse response)
+          parse(response).users.first
         end
-
 
         private
           def parse(response)
             users = response['users'].map { |user| User.new(user) }
             response['users'] = users
-            response
+            OpenStruct.new response
           end
       end
 

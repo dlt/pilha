@@ -13,19 +13,17 @@ module StackExchange
         def find(id, options = {})
           options.merge! :id => id
           response = client.request('/answers/:id', options)
-          response.answers.first
+          parse(response).answers.first
         end
 
         def find_by_user_id(id, options = {})
           options.merge! :id => id
-          response = client.request('/users/:id/answers', options)
-          OpenStruct.new(parse response)
+          parse client.request('/users/:id/answers', options)
         end
 
         def find_by_question_id(id, options = {})
           options.merge! :id => id
-          response = client.request('/questions/:id/answers', options)
-          OpenStruct.new(parse response)
+          parse client.request('/questions/:id/answers', options)
         end
 
         private
@@ -57,7 +55,7 @@ module StackExchange
               setup_associations!(response, answer_hash)
             end
             setup_answers! response
-            response
+            OpenStruct.new response
           end
       end
 
