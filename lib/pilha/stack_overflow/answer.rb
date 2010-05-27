@@ -5,7 +5,7 @@ module StackExchange
       
       def_delegators :@struct, :answer_id, :accepted, :answer_comments_url, :question_id,
                      :owner, :creation_date, :last_activity_date, :up_vote_count, :down_vote_count,
-                     :view_count, :score, :community_owned, :title
+                     :view_count, :score, :community_owned, :title, :comments
 
       class << self
         attr_reader :client
@@ -15,12 +15,23 @@ module StackExchange
           response = client.get client.api_method_url('/answers/:id', options)
           
           answer_hash = response['answers'].first
-          answer_hash['owner'] = User.new(answer_hash['owner'])
 
-          answer = Answer.new(answer_hash)
-          response['answers'] = [answer]
+          setup_associations!(response, answer_hash)
           OpenStruct.new(response)
         end
+
+        private
+          def setup_associations!(response, hash)
+            hash['owner'] = User.new(hash['owner'])
+            answer = Answer.new(hash)
+            response['answers'] = [answer]
+          end
+
+          def setup_comments!(hash)
+            if hash.key?('comments')
+              hash['comments'] = hash['comments'].map {|c| Comment.new c}
+            end
+          end
       end
 
       def initialize(hash)

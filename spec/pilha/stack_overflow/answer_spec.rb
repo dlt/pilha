@@ -22,7 +22,8 @@ describe StackExchange::StackOverflow::Answer do
   end
 
   it 'should include user association when option :include => :comments' do
-    pending
+    response = StackOverflow::Answer.find_by_id 555, :query => { :comments => true }
+    response.answers.first.comments.size.should_not == 1
   end
 end
 
