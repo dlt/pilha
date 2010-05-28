@@ -11,51 +11,39 @@ module StackExchange
         attr_reader :client
 
         def find(id, options = {})
-          options.merge! :id => id
-          response = client.request('/answers/:id', options)
-          parse(response).answers.first
+          request('/answers/:id', id, options).answers.first
         end
 
         def find_by_user_id(id, options = {})
-          options.merge! :id => id
-          parse client.request('/users/:id/answers', options)
+          request('/users/:id/answers', id, options)
         end
 
         def find_by_question_id(id, options = {})
-          options.merge! :id => id
-          parse client.request('/questions/:id/answers', options)
+          request('/questions/:id/answers', id, options)
         end
 
         private
-          def setup_associations!(response, hash)
-            setup_comments! hash
-            setup_owner! hash
-          end
-
-          def setup_comments!(hash)
-            if hash['comments']
-              hash['comments'] = hash['comments'].map {|c| Comment.new c }
-            end
-          end
-
-          def setup_owner!(hash)
-            if hash['owner']
-              hash['owner'] = User.new(hash['owner'])
-            end
-          end
-
-          def setup_answers!(response)
-            if response['answers']
-              response['answers'] = response['answers'].map { |a| Answer.new a }
-            end
-          end
-
           def parse(response)
-            response['answers'].each do |answer_hash|
-              setup_associations!(response, answer_hash)
+            response['answers'].each do |answer|
+              parse_with_class(answer, 'comments', Comment)
+              parse_with_class(answer, 'owner', User)
             end
-            setup_answers! response
+            parse_with_class(response, 'answers', Answer)
             OpenStruct.new response
+          end
+
+          def parse_with_class(hash, name, klass)
+            case hash[name]
+              when Hash 
+                hash[name] = klass.new(hash[name])
+              when Array
+                hash[name] = hash[name].map { |value| klass.new(value) }
+            end
+          end
+
+          def request(path_pattern, id, options)
+            options.merge! :id => id
+            parse client.request(path_pattern, options)
           end
       end
 
