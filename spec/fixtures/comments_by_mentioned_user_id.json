@@ -1,0 +1,117 @@
+{
+  "total": 5,
+  "page": 1,
+  "pagesize": 30,
+  "comments": [
+    {
+      "comment_id": 2289139,
+      "creation_date": 1266949196,
+      "owner": {
+        "user_id": 77814,
+        "user_type": "registered",
+        "display_name": "nickyt",
+        "reputation": 1130,
+        "email_hash": "243668a44dc257d64fa88656beb94469"
+      },
+      "reply_to_user": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2320184,
+      "post_type": "answer",
+      "score": 0,
+      "body": "@Josh - why not use a pagemethod then? You can just pass back the selected value and then your dependent picklist can use that value to populate itself. Might mean you need to change your approach, but less stuff goes down the wire this way."
+    },
+    {
+      "comment_id": 2093324,
+      "creation_date": 1264630592,
+      "owner": {
+        "user_id": 5274,
+        "user_type": "registered",
+        "display_name": "Jonathan Allen",
+        "reputation": 6414,
+        "email_hash": "205db6eb5e26b56ab69cd4bffbbc9b3d"
+      },
+      "reply_to_user": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2150581,
+      "post_type": "question",
+      "score": 0,
+      "body": "@Josh, that could result in what amounts to a memory leak if he does it a lot."
+    },
+    {
+      "comment_id": 2093269,
+      "creation_date": 1264630294,
+      "owner": {
+        "user_id": 17516,
+        "user_type": "registered",
+        "display_name": "AnthonyWJones",
+        "reputation": 41517,
+        "email_hash": "91973b1bef91ee4f314cd95a37a45f2b"
+      },
+      "reply_to_user": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2150581,
+      "post_type": "question",
+      "score": 0,
+      "body": "@josh: The goal is remove the delegate rather than to have it fire and do nothing. "
+    },
+    {
+      "comment_id": 2093258,
+      "creation_date": 1264630214,
+      "owner": {
+        "user_id": 17516,
+        "user_type": "registered",
+        "display_name": "AnthonyWJones",
+        "reputation": 41517,
+        "email_hash": "91973b1bef91ee4f314cd95a37a45f2b"
+      },
+      "reply_to_user": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2150581,
+      "post_type": "question",
+      "score": 0,
+      "body": "@Josh: I agree it is &quot;spaghetti-ish&quot;, so thats another reason to have a tidier solution."
+    },
+    {
+      "comment_id": 2084922,
+      "creation_date": 1264548804,
+      "owner": {
+        "user_id": 141229,
+        "user_type": "registered",
+        "display_name": "Martin Aatmaa",
+        "reputation": 138,
+        "email_hash": "db1e5a97a3d1f61d79e9e933df15fe7c"
+      },
+      "reply_to_user": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2075288,
+      "post_type": "question",
+      "score": 0,
+      "body": "@Josh - In order to establish a clean level of separation, among other reasons. In any case, I think debating the DTO pattern is a separate topic."
+    }
+  ]
+}

@@ -9,7 +9,7 @@ module StackExchange
       class << self 
         attr_reader :client
 
-        def find_by_id(id, options = {})
+        def find(id, options = {})
           request('/comments/:id/', id, options)
         end
 
@@ -18,17 +18,25 @@ module StackExchange
         end
 
         def find_by_user_id(id, options = {})
-          request('/users/:id/comments', id, options)
+          if options[:to_user]
+            request('/users/:id/comments/:to_user', id, options)
+          else
+            request('/users/:id/comments', id, options)
+          end
         end
 
-        private
-          def parse(response)
-            response['comments'].each do |comment|
-              parse_with_class(comment, 'owner', User)
-            end
-            parse_with_class(response, 'comments', Comment)
-            OpenStruct.new response
+        def find_by_mentioned_user_id(id, options = {})
+          request('/users/:id/mentioned', id, options) 
+        end
+
+        def parse(response)
+          response['comments'].each do |comment|
+            parse_with_class(comment, 'owner', User)
+            parse_with_class(comment, 'reply_to_user', User)
           end
+          parse_with_class(response, 'comments', Comment)
+          OpenStruct.new response
+        end
       end
 
       def initialize(hash)
@@ -37,6 +45,10 @@ module StackExchange
 
       def id
         @struct.comment_id
+      end
+
+      def mentioned_user
+        @struct.reply_to_user
       end
     end
   end

@@ -29,12 +29,11 @@ module StackExchange
           request('/users/:id', id, options).users.first
         end
 
-        private
-          def parse(response)
-            users = response['users'].map { |user| User.new(user) }
-            response['users'] = users
-            OpenStruct.new response
-          end
+        def parse(response)
+          users = response['users'].map { |user| User.new(user) }
+          response['users'] = users
+          OpenStruct.new response
+        end
       end
 
       def initialize(hash)

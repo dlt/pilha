@@ -11,15 +11,18 @@ module StackExchange
         attr_reader :client
 
         def all(options = {})
-          method = select_method options
-          response = client.request(method, options)
-          badges = response['badges']
-          badges.map { |badge| Badge.new badge }
+          method = select_method(options)
+          parse client.request(method, options)
         end
 
         def select_method(options)
           tag_based = options[:tag_based] || options['tag_based']
           tag_based ? '/badges/tags' : '/badges'
+        end
+
+        def parse(response)
+          response['badges'] = response['badges'].map { |badge| Badge.new badge }
+          OpenStruct.new response
         end
       end
 

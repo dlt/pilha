@@ -48,7 +48,7 @@ module StackExchange
       end
 
       def api_method_path(pattern, options = {})
-        pattern << '/' unless pattern.end_with? '/'
+        pattern = normalize(pattern)
         parts = pattern.split('/').select { |part| part =~ /^:/ }
 
         parts.each do |part|
@@ -66,7 +66,7 @@ module StackExchange
 
       def get(url)
         stream = open(url) { |stream| Zlib::GzipReader.new(stream).read }
-        JSON.parse stream
+        JSON.parse(stream)
       end
 
       def root_path
@@ -74,18 +74,14 @@ module StackExchange
       end
 
       def request(path, options)
-        get(api_method_url(path, options))
+        get api_method_url(path, options)
       end
 
       private
-        def key?
-          !!@api_key 
-        end
-
         def query_string(options)
-          params = options[:query]
-          if params
+          if params = options[:query]
             params = params.sort_by { |k, v| k.to_s }
+
             '?' + params.inject([]) do |arr, (key, value)|
               arr << "#{key}=#{value}"
             end.join('&')

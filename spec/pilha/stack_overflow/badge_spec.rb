@@ -9,7 +9,8 @@ describe StackExchange::StackOverflow::Badge do
   describe 'when querying for badges' do
     it 'should return all badges' do
       response = StackOverflow::Badge.all
-      first_badge = response.first
+
+      first_badge = response.badges.first
       first_badge.badge_id.should == 9
       first_badge.id.should == 9
       first_badge.rank.should == "bronze"
@@ -21,9 +22,8 @@ describe StackExchange::StackOverflow::Badge do
     end
 
     it 'should return all tag-based badges' do
-
       response = StackOverflow::Badge.all(:tag_based => true)
-      first_tag_based = response.first
+      first_tag_based = response.badges.first
       first_tag_based.id.should == 204
       first_tag_based.rank.should == "silver"
       first_tag_based.name.should == ".htaccess"

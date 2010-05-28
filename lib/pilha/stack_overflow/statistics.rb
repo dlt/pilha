@@ -18,12 +18,14 @@ module StackExchange
         attr_reader :client
 
         def all(options = {})
-          response = client.request('/stats', options)
-          stats = response['statistics'].first
-          Statistics.new stats
+          parse client.request('/stats', options)
         end
-      end
 
+        private
+          def parse(response)
+            Statistics.new response['statistics'].first
+          end
+      end
     end
   end
 end

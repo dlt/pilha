@@ -1,0 +1,29 @@
+{
+  "total": 1,
+  "page": 1,
+  "pagesize": 30,
+  "comments": [
+    {
+      "comment_id": 2289139,
+      "creation_date": 1266949196,
+      "owner": {
+        "user_id": 77814,
+        "user_type": "registered",
+        "display_name": "nickyt",
+        "reputation": 1130,
+        "email_hash": "243668a44dc257d64fa88656beb94469"
+      },
+      "reply_to_user": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2320184,
+      "post_type": "answer",
+      "score": 0,
+      "body": "@Josh - why not use a pagemethod then? You can just pass back the selected value and then your dependent picklist can use that value to populate itself. Might mean you need to change your approach, but less stuff goes down the wire this way."
+    }
+  ]
+}

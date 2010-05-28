@@ -22,15 +22,14 @@ module StackExchange
           request('/questions/:id/answers', id, options)
         end
 
-        private
-          def parse(response)
-            response['answers'].each do |answer|
-              parse_with_class(answer, 'comments', Comment)
-              parse_with_class(answer, 'owner', User)
-            end
-            parse_with_class(response, 'answers', Answer)
-            OpenStruct.new response
+        def parse(response)
+          response['answers'].each do |answer|
+            parse_with_class(answer, 'comments', Comment)
+            parse_with_class(answer, 'owner', User)
           end
+          parse_with_class(response, 'answers', Answer)
+          OpenStruct.new response
+        end
       end
 
       def initialize(hash)
