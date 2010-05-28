@@ -7,6 +7,7 @@ require 'json'
 require 'open-uri'
 require 'forwardable'
 
+require 'pilha/stack_overflow/base'
 require 'pilha/stack_overflow/statistics'
 require 'pilha/stack_overflow/badge'
 require 'pilha/stack_overflow/user'

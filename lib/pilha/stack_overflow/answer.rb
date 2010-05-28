@@ -1,6 +1,6 @@
 module StackExchange
   module StackOverflow
-    class Answer
+    class Answer < Base
       extend Forwardable
       
       def_delegators :@struct, :answer_id, :accepted, :answer_comments_url, :question_id,
@@ -31,20 +31,6 @@ module StackExchange
             parse_with_class(response, 'answers', Answer)
             OpenStruct.new response
           end
-
-          def parse_with_class(hash, name, klass)
-            case hash[name]
-              when Hash 
-                hash[name] = klass.new(hash[name])
-              when Array
-                hash[name] = hash[name].map { |value| klass.new(value) }
-            end
-          end
-
-          def request(path_pattern, id, options)
-            options.merge! :id => id
-            parse client.request(path_pattern, options)
-          end
       end
 
       def initialize(hash)
@@ -54,7 +40,6 @@ module StackExchange
       def id
         @struct.answer_id
       end
-
     end
   end
 end

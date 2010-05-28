@@ -1,6 +1,6 @@
 module StackExchange
   module StackOverflow
-    class Comment 
+    class Comment < Base
       extend Forwardable
 
       def_delegators :@struct, :comment_id, :creation_date, :owner, :post_id,
@@ -10,14 +10,25 @@ module StackExchange
         attr_reader :client
 
         def find_by_id(id, options = {})
-          options.merge! :id => id
-          response = client.request('/comments/:id/', options)
-
-          comment = Comment.new(response['comments'].first)
-          response['comments'] = [comment]
-
-          OpenStruct.new response
+          request('/comments/:id/', id, options)
         end
+
+        def find_by_question_id(id, options = {})
+          request('/questions/:id/comments', id, options)
+        end
+
+        def find_by_user_id(id, options = {})
+          request('/users/:id/comments', id, options)
+        end
+
+        private
+          def parse(response)
+            response['comments'].each do |comment|
+              parse_with_class(comment, 'owner', User)
+            end
+            parse_with_class(response, 'comments', Comment)
+            OpenStruct.new response
+          end
       end
 
       def initialize(hash)

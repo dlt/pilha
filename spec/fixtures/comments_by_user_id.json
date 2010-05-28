@@ -1,0 +1,464 @@
+{
+  "total": 117,
+  "page": 1,
+  "pagesize": 30,
+  "comments": [
+    {
+      "comment_id": 2739275,
+      "creation_date": 1272292520,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2580831,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Thanks so much for this.  I had a devilish time finding this in JetBrains' documentation."
+    },
+    {
+      "comment_id": 2288595,
+      "creation_date": 1266945979,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2320184,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Yeah, the point is that I do not want a big old list of 200 countries sent across the wire on every postback since it's really not necessary.  We're currently using EnableViewState=&quot;true&quot; and doing things in OnLoad."
+    },
+    {
+      "comment_id": 2288414,
+      "creation_date": 1266944454,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2174334,
+      "post_type": "question",
+      "score": 1,
+      "body": "Duplicate of this: <a href=\"http://stackoverflow.com/questions/1976981/asp-net-mvc-filtering-results-in-a-list-grid/1977055#1977055\" rel=\"nofollow\" title=\"asp net mvc filtering results in a list grid\">stackoverflow.com/questions/1976981/&hellip;</a>"
+    },
+    {
+      "comment_id": 2205389,
+      "creation_date": 1265920319,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2246567,
+      "post_type": "answer",
+      "score": 0,
+      "body": "I missed your last comment while I was posting the last one.  I'll do some more homework and checkout that other question."
+    },
+    {
+      "comment_id": 2205380,
+      "creation_date": 1265920240,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2246567,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Here's the thing I'm not getting: The FooManager class is going to get a heterogeneous list of a FooDomain descendents: SuperFooDomain1, SuperFooDomain2, etc.  Can you elaborate on how I get from type discriminator to an instance of the appropriate FooDomain descendent?  Is there going to be a big switch statement somewhere?"
+    },
+    {
+      "comment_id": 2204836,
+      "creation_date": 1265915830,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2246567,
+      "post_type": "answer",
+      "score": 0,
+      "body": "And I might add the ToC for the book you're working on has got me quite interested.  It looks like a great way to present the topic."
+    },
+    {
+      "comment_id": 2204799,
+      "creation_date": 1265915532,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2246567,
+      "post_type": "answer",
+      "score": 0,
+      "body": "I read your blog post on the Service Locator earlier today and thought it was fantastically written.  Sorry for the page of code - couldn't figure out a way to express the object hierarchy any more succintly."
+    },
+    {
+      "comment_id": 2185363,
+      "creation_date": 1265730589,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2230286,
+      "post_type": "question",
+      "score": 0,
+      "body": "Does functional testing == integration testing?"
+    },
+    {
+      "comment_id": 2098123,
+      "creation_date": 1264688534,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "reply_to_user": {
+        "user_id": 5274,
+        "user_type": "registered",
+        "display_name": "Jonathan Allen",
+        "reputation": 6409,
+        "email_hash": "205db6eb5e26b56ab69cd4bffbbc9b3d"
+      },
+      "post_id": 2150581,
+      "post_type": "question",
+      "score": 0,
+      "body": "@Jonathan Allen - Can you point me to an article that explains more about how the memory leak could occur?  I'd really like to learn more.  Most of my experience with event handlers has been in Windows Forms and I nearly always create forms within a using block so I figured I didn't have to worry about leaks."
+    },
+    {
+      "comment_id": 2093277,
+      "creation_date": 1264630327,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2150538,
+      "post_type": "question",
+      "score": 0,
+      "body": "Is the exception occurring in the rendering of the view or in the controller action?"
+    },
+    {
+      "comment_id": 2093245,
+      "creation_date": 1264630121,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2150581,
+      "post_type": "question",
+      "score": 0,
+      "body": "Should have added above: The idea of the lambda expression removing itself as the event handler seems very spaghetti-ish."
+    },
+    {
+      "comment_id": 2093234,
+      "creation_date": 1264630057,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2150581,
+      "post_type": "question",
+      "score": 0,
+      "body": "Out of curiosity, why not just use a member variable boolean flag that gets set once the event fires, then do &quot;if (flag) return;&quot;?"
+    },
+    {
+      "comment_id": 2089394,
+      "creation_date": 1264602365,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2142355,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Can you add the exception you get to your post?"
+    },
+    {
+      "comment_id": 2083746,
+      "creation_date": 1264539452,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2142505,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Or ClassType if it's a lookup."
+    },
+    {
+      "comment_id": 2083702,
+      "creation_date": 1264539105,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2075288,
+      "post_type": "question",
+      "score": 0,
+      "body": "Why do you need a DTO at all?  Why not just bind to your entity class?"
+    },
+    {
+      "comment_id": 2083654,
+      "creation_date": 1264538682,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2141410,
+      "post_type": "question",
+      "score": 0,
+      "body": "I'd be very, very careful to make sure using externals would save you as much time as you think.  I've heard nothing but problems when externals are involved."
+    },
+    {
+      "comment_id": 2083590,
+      "creation_date": 1264538243,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2141946,
+      "post_type": "question",
+      "score": 0,
+      "body": "What language are you writing in?  There are definitely charting and graphing apps for .NET if you can call .NET libraries from whatever you're developing in."
+    },
+    {
+      "comment_id": 2083568,
+      "creation_date": 1264538125,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2142044,
+      "post_type": "question",
+      "score": 0,
+      "body": "If my answer is completely off the mark and you have to use Oracle 10 Client, could you post the specific error message you're getting?"
+    },
+    {
+      "comment_id": 2081029,
+      "creation_date": 1264519692,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2135325,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Normally you wouldn't have a SqlCommand parameter in the BLL, but you should be able to do it through the DAL.  You would then expose a wrapper method in the BLL that calls the DAL method.  Is it possible for you to add such a wrapper in the BLL?"
+    },
+    {
+      "comment_id": 2072458,
+      "creation_date": 1264432361,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2118911,
+      "post_type": "answer",
+      "score": 0,
+      "body": "I was surprised that there weren't oodles of examples out there when I was searching for stuff.  Added link to answer."
+    },
+    {
+      "comment_id": 2057202,
+      "creation_date": 1264190962,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2118837,
+      "post_type": "question",
+      "score": 0,
+      "body": "Glad my answer worked for you.  Go team!"
+    },
+    {
+      "comment_id": 2057024,
+      "creation_date": 1264189738,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2119134,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Unfortunately, the space thing is not going to work.  The text in question is a user's username (which can be an email address) so I need to render it literally."
+    },
+    {
+      "comment_id": 2045868,
+      "creation_date": 1264089446,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2088916,
+      "post_type": "question",
+      "score": 0,
+      "body": "Is there perhaps a way to disable the triggers within the scope of the transaction you want to execute?"
+    },
+    {
+      "comment_id": 2022177,
+      "creation_date": 1263853615,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2088916,
+      "post_type": "question",
+      "score": 0,
+      "body": "Are you transferring data between two databases permanently or are they two production systems you have to keep in sync in more or less real time?  Can this job be done nightly?"
+    },
+    {
+      "comment_id": 1951910,
+      "creation_date": 1262965251,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2016293,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Ok, then what you'll need to do is cut out the entire build script and add it back piece-by-piece until you find the section that's causing the problem.  &quot;My build script times out&quot; isn't something someone can help you fix - you'll need to do some more digging until you get to a more specific issue."
+    },
+    {
+      "comment_id": 1945104,
+      "creation_date": 1262890223,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2022416,
+      "post_type": "answer",
+      "score": 0,
+      "body": "I never experienced an exception being thrown with EnableVisualStyles, but don't take that as an authoritative answer as I was working on an internal app so the machines were all on the same version of XP.  That said, if it works on SP2 and SP3, you're probably safe."
+    },
+    {
+      "comment_id": 1944742,
+      "creation_date": 1262887657,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2016293,
+      "post_type": "answer",
+      "score": 0,
+      "body": "You'll need to isolate and post the section of the build script that's timing out in order for us to answer your question."
+    },
+    {
+      "comment_id": 1944532,
+      "creation_date": 1262886350,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2017413,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Sayed, do you have a source for this?  Could you post a link?"
+    },
+    {
+      "comment_id": 1937759,
+      "creation_date": 1262812822,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 2016258,
+      "post_type": "question",
+      "score": 0,
+      "body": "Could you re-title the question?  You'll probably get more answers if you have a more meaningful title."
+    },
+    {
+      "comment_id": 1927065,
+      "creation_date": 1262706369,
+      "owner": {
+        "user_id": 549,
+        "user_type": "registered",
+        "display_name": "Josh Kodroff",
+        "reputation": 1542,
+        "email_hash": "9e7ef08258f04dab37b43842d261aea8"
+      },
+      "post_id": 1172729,
+      "post_type": "answer",
+      "score": 2,
+      "body": "I had the same issue several times and in my experience it's been the Recycle Bin that's been the culprit."
+    }
+  ]
+}

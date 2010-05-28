@@ -1,7 +1,7 @@
 module StackExchange
   module StackOverflow
 
-    class User 
+    class User < Base
       extend Forwardable
 
       def_delegators :@struct, :user_id, :user_type, :creation_date, :display_name,
@@ -22,14 +22,11 @@ module StackExchange
         end
 
         def find_by_badge_id(id, options = {})
-          options.merge! :id => id
-          parse client.request('/badges/:id', options)
+          request('/badges/:id', id, options)
         end
 
         def find(id, options = {})
-          options.merge! :id => id
-          response = client.request('/users/:id', options)
-          parse(response).users.first
+          request('/users/:id', id, options).users.first
         end
 
         private
