@@ -30,7 +30,6 @@ describe StackOverflow::Client do
   describe 'when using #config for configuration setup' do
     before do
       @client = StackOverflow::Client.new
-      @old_url = @client.url 
 
       StackOverflow::Client.config do |options|
         options.url = 'http://test.it'
@@ -40,9 +39,8 @@ describe StackOverflow::Client do
     end
 
     after do
-      StackOverflow::Client.config do |options|
-        options.url = @old_url
-      end
+      # reset to default configuration
+      StackOverflow::Client.config
     end
 
     it 'should modify the api url' do

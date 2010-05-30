@@ -1,7 +1,6 @@
 module StackExchange
   module StackOverflow
-
-    class Statistics
+    class Statistics < Base
 
       extend Forwardable
 
@@ -18,7 +17,7 @@ module StackExchange
         attr_reader :client
 
         def all(options = {})
-          parse client.request('/stats', options)
+          request('/stats', nil, options)
         end
 
         private

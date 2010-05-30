@@ -13,7 +13,7 @@ module StackExchange
         end
 
         def request(path_pattern, id, options)
-          options.merge! :id => id
+          options.merge! :id => id if id
           parse client.request(path_pattern, options)
         end
       end

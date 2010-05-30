@@ -1,6 +1,6 @@
 module StackExchange
   module StackOverflow
-    class Badge 
+    class Badge < Base
 
       extend Forwardable
 
@@ -12,7 +12,7 @@ module StackExchange
 
         def all(options = {})
           method = select_method(options)
-          parse client.request(method, options)
+          request(method, nil, options)
         end
 
         def select_method(options)
@@ -33,7 +33,6 @@ module StackExchange
       def id
         @struct.badge_id
       end
-
     end
   end
 end

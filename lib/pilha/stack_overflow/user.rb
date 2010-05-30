@@ -1,6 +1,5 @@
 module StackExchange
   module StackOverflow
-
     class User < Base
       extend Forwardable
 
@@ -18,7 +17,7 @@ module StackExchange
         attr_reader :client
 
         def all(options = {})
-          parse client.request('/users', options)
+          request('/users', nil, options)
         end
 
         def find_by_badge_id(id, options = {})
@@ -30,8 +29,7 @@ module StackExchange
         end
 
         def parse(response)
-          users = response['users'].map { |user| User.new(user) }
-          response['users'] = users
+          parse_with_class(response, 'users', User)
           OpenStruct.new response
         end
       end
