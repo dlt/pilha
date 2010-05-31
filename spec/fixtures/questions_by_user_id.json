@@ -1,0 +1,35 @@
+{
+  "total": 1,
+  "page": 1,
+  "pagesize": 30,
+  "questions": [
+    {
+      "tags": [
+        "c++",
+        "gcc"
+      ],
+      "answer_count": 3,
+      "accepted_answer_id": 267415,
+      "favorite_count": 1,
+      "question_timeline_url": "/questions/267248/timeline",
+      "question_comments_url": "/questions/267248/comments",
+      "question_answers_url": "/questions/267248/answers",
+      "question_id": 267248,
+      "owner": {
+        "user_id": 333,
+        "user_type": "registered",
+        "display_name": "Edward Luong",
+        "reputation": 67,
+        "email_hash": "ba07b97b203bfa3dbee2bac70ddf380c"
+      },
+      "creation_date": 1225930514,
+      "last_activity_date": 1225938787,
+      "up_vote_count": 2,
+      "down_vote_count": 0,
+      "view_count": 266,
+      "score": 2,
+      "community_owned": false,
+      "title": "Getting rid of gcc shift by negative warning"
+    }
+  ]
+}

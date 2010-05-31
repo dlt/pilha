@@ -1,0 +1,169 @@
+{
+  "total": 1,
+  "page": 1,
+  "pagesize": 30,
+  "questions": [
+    {
+      "tags": [
+        "csla"
+      ],
+      "answer_count": 6,
+      "answers": [
+        {
+          "answer_id": 1239,
+          "accepted": true,
+          "answer_comments_url": "/answers/1239/comments",
+          "question_id": 1234,
+          "owner": {
+            "user_id": 34,
+            "user_type": "registered",
+            "display_name": "Karl Seguin",
+            "reputation": 4770,
+            "email_hash": "6f448664cd294829b9ed0cd356f91cb1"
+          },
+          "creation_date": 1217857822,
+          "last_edit_date": 1232473322,
+          "last_activity_date": 1232473322,
+          "up_vote_count": 12,
+          "down_vote_count": 10,
+          "view_count": 1081,
+          "score": 2,
+          "community_owned": false,
+          "title": "CSLA Master Class",
+          "body": "<p>I guess if you have to do CSLA it might be worth it, but if you're looking to enforce your OO knowledge, look elsewhere. CLSA doesn't promote TDD or BDD. It's hard to unit test. Your \"object\" get completely loaded with data access - doesn't seem OO to me.</p>\n\n<p>CSLA is a narrow perspective on how systems ought to be built. It doesn't teach you OO, it teaches you Rocky's vision of OO. I know the ALT.NET crowd has been a little hard on CSLA, but I think it's for good reason. It was a great framework back in VB days -ahead of its time even - but it's very long in the tooth. </p>\n\n<p>If you want to learn OO, go with an o/r mapper, get <a href=\"http://domaindrivendesign.org/books/index.html#DDD_apply\" rel=\"nofollow\">Evans' DDD book</a>, and the free <a href=\"http://tinyurl.com/5jaae2\" rel=\"nofollow\">Foundations</a> series. You'll be considerably better off - have a more fundamental understanding of DDD, and most importantly won't be boxed in with a single vision. You'll have the agility to pick an ActiveRecord implementation if that suits your projects needs, or a full blown o/r mapper. Most importantly, you'll actually be able to unit test your code!</p>\n"
+        },
+        {
+          "answer_id": 1445,
+          "accepted": false,
+          "answer_comments_url": "/answers/1445/comments",
+          "question_id": 1234,
+          "owner": {
+            "user_id": 296,
+            "user_type": "registered",
+            "display_name": "jdecuyper",
+            "reputation": 1189,
+            "email_hash": "21ae3e5f2968bc957b7a6fa709bea2a0"
+          },
+          "creation_date": 1217871521,
+          "last_activity_date": 1217871521,
+          "up_vote_count": 0,
+          "down_vote_count": 0,
+          "view_count": 1081,
+          "score": 0,
+          "community_owned": false,
+          "title": "CSLA Master Class",
+          "body": "<p>Wow, thanks a lot for your detailed answer. <br>\r\nI will certainly have a second thought now :)</p>"
+        },
+        {
+          "answer_id": 39971,
+          "accepted": false,
+          "answer_comments_url": "/answers/39971/comments",
+          "question_id": 1234,
+          "owner": {
+            "user_id": 4271,
+            "user_type": "registered",
+            "display_name": "Rik Garner",
+            "reputation": 538,
+            "email_hash": "de7f3a6aa3dbcbe615ff38b3efde0006"
+          },
+          "creation_date": 1220373092,
+          "last_activity_date": 1220373092,
+          "up_vote_count": 8,
+          "down_vote_count": 0,
+          "view_count": 1081,
+          "score": 8,
+          "community_owned": false,
+          "title": "CSLA Master Class",
+          "body": "<p>Couple of quick points : \nI have used TDD on a CSLA project - works like a charm.</p>\n\n<p>You are free to implement any data access method within a CSLA project - the data access code doesn't have to be inside a CSLA class.</p>\n\n<p>CSLA <em>is</em> BDD - it's a very pragmatic approach to building a business layer for your application. </p>\n"
+        },
+        {
+          "answer_id": 103291,
+          "accepted": false,
+          "answer_comments_url": "/answers/103291/comments",
+          "question_id": 1234,
+          "owner": {
+            "user_id": 5027,
+            "user_type": "registered",
+            "display_name": "fuzzbone",
+            "reputation": 926,
+            "email_hash": "d47d5591225b924e78918e891fcf1855"
+          },
+          "creation_date": 1221840401,
+          "last_activity_date": 1221840401,
+          "up_vote_count": 27,
+          "down_vote_count": 0,
+          "view_count": 1081,
+          "score": 27,
+          "community_owned": false,
+          "title": "CSLA Master Class",
+          "body": "<p>I would consider second and third thoughts on using CSLA - but I wouldn't base it on the \"accepted\" answer above because it is completely inacurate.</p>\n\n<p>Particularly this comment:</p>\n\n<blockquote>\n  <p>was a great framework back in VB days -ahead of it's time even - but it's very long in the tooth. </p>\n</blockquote>\n\n<p>The .NET CSLA framework is completely rewritten from the ground up and bears little to no relationship with the VB version (other than some very high-level philosophy).  Calling it \"long in tooth\" because the author wrote a different version in a different language would be like saying \"Don't Use VB.NET because it's VB3 was a great lanaguage in it's day - but it's very long in tooth....\"</p>\n\n<p>Thee are a lot of good and bad reasons to use or not use CSLA - but as Rik points out you definitely can do TDD with CSLA.  CSLA has a lot of really good features and for a lot of environments it is an excellent choice.  I'll admit a biase up front -I work for Magenic (Rocky's firm)...</p>\n\n<p>That said - the accurate answer about \"The Alt.Net crowd\" - is that CSLA does impose some limitations (because of the use the \"Data Portal\" in some of the tools that \"the Alt.Net crowd\" considers critical - particular depency injection.  If you believe the only way to do TDD is to use dependency injection - only then would I say that you can't do TDD with CSLA.</p>\n\n<p>Furthermore - mock frameworks like RhinoMocks use Dependcy injection can't be used as well.  Typemock does not - so you CAN use mocking with CSLA.  </p>\n\n<p>So if you can't live without dependency injection and a particular Mock Framework (other than TypeMock) - you probably don't want to consider CSLA - but neither of those is a requirment to \"Learn OO\"...</p>\n"
+        },
+        {
+          "answer_id": 487881,
+          "accepted": false,
+          "answer_comments_url": "/answers/487881/comments",
+          "question_id": 1234,
+          "owner": {
+            "user_id": 59749,
+            "user_type": "registered",
+            "reputation": 88,
+            "email_hash": "8fd4b27c718c131641bdbe26b5ddf248"
+          },
+          "creation_date": 1233154058,
+          "last_activity_date": 1233154058,
+          "up_vote_count": 3,
+          "down_vote_count": 0,
+          "view_count": 1081,
+          "score": 3,
+          "community_owned": false,
+          "title": "CSLA Master Class",
+          "body": "<p>The latest version of CSLA is specifically for Silverlight so to say it's \"long in the tooth\" is simply untrue. I've used Visual Studio's testing facilities perfectly well with CSLA. It's really an amazing platform and I don't work for Magenic. I have attended the 3 day CSLA class and found it helpful but best for people with little to no experience at all using the framework. I'm also interested in the Masterclass but have yet to take it.</p>\n"
+        },
+        {
+          "answer_id": 629101,
+          "accepted": false,
+          "answer_comments_url": "/answers/629101/comments",
+          "question_id": 1234,
+          "owner": {
+            "user_id": 27779,
+            "user_type": "registered",
+            "display_name": "Gregory Higley",
+            "reputation": 1641,
+            "email_hash": "0eca43470168ac27b7d006ab3c75848f"
+          },
+          "creation_date": 1236665990,
+          "last_activity_date": 1236665990,
+          "up_vote_count": 4,
+          "down_vote_count": 0,
+          "view_count": 1081,
+          "score": 4,
+          "community_owned": false,
+          "title": "CSLA Master Class",
+          "body": "<p>The way to use CSLA with TDD is simple: You have to realize that CSLA is <em>not</em> an ORM. (Repeat 100 times, because so many people miss this critical fact.) An ORM is something you might use <em>inside</em> CSLA's <code>DataPortal_XYZ</code> or <code>Child_XYZ</code> methods.</p>\n\n<p>Let's take the popular Repository pattern, which is excellent for testing. The important thing to realize is that your repository is <em>not</em> a repository of CSLA objects. Rather, your CSLA objects <em>consume</em> your repository, i.e., they use your repository for performing data access operations.</p>\n\n<p>So, how does this make CSLA testable? In the classic Repository pattern, you swap out your \"real\" repository with a test repository in your unit tests. This is exactly what you would do in a CSLA scenario. It's a bit of a pain to pass parameters to a CSLA object to tell it which repository to instantiate, so that would have to be configuration-driven, but the principle is perfectly valid. You can then unit-test your CSLA objects without worrying that they are hitting a live database.</p>\n\n<p>As others have said, CSLA is not a data access technology. It sits between your UI and your persistence layer and provides services like validation, two-way binding, etc. It has methods to invoke various persistence operations, but those operations can be anything you like.</p>\n"
+        }
+      ],
+      "accepted_answer_id": 1239,
+      "favorite_count": 1,
+      "question_timeline_url": "/questions/1234/timeline",
+      "question_comments_url": "/questions/1234/comments",
+      "question_answers_url": "/questions/1234/answers",
+      "question_id": 1234,
+      "owner": {
+        "user_id": 296,
+        "user_type": "registered",
+        "display_name": "jdecuyper",
+        "reputation": 1189,
+        "email_hash": "21ae3e5f2968bc957b7a6fa709bea2a0"
+      },
+      "creation_date": 1217857235,
+      "last_activity_date": 1236665990,
+      "up_vote_count": 2,
+      "down_vote_count": 0,
+      "view_count": 1081,
+      "score": 2,
+      "community_owned": false,
+      "title": "CSLA Master Class",
+      "body": "<p>Hi guys!\r\nAs anyone ever assisted the CSLA Master Class from Rockford Lhotka? (<a href=\"http://www.dunntraining.com/training/cslamasterclass.htm\" rel=\"nofollow\">www</a>).\r\n<br><br>\r\nIt seems a good way to enforce my OO knowledge in the asp.net field, but since I have to consider the flight to Atlanta and the course's price ($ 2.500), I'm not convinced yet. <br>\r\n<br>\r\nAlso, I could barrely find any feedback on the web.<br><br>\r\nCould anyone share some experience or comments?<br><br>\r\nThanks a lot. </p>"
+    }
+  ]
+}

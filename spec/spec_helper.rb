@@ -8,6 +8,7 @@ require 'spec'
 require 'pp'
 
 include StackExchange
+StackExchange::StackOverflow::Client.config
 FIXTURES_PATH = File.expand_path(File.join(File.dirname(__FILE__), 'fixtures'))
 ROOT_URL = [StackOverflow::Client::URL.chomp('/'), StackOverflow::Client::API_VERSION].join '/'
 FakeWeb.allow_net_connect = false
@@ -35,9 +36,12 @@ register(:url => 'badges/tags/', :body => 'badges_tag_based')
 register(:url => 'answers/666/', :body => 'answers_by_id')
 register(:url => 'answers/555/', :body => 'answer_with_comments')
 register(:url => 'comments/1/', :body => 'comments')
-register(:url => 'users/1/answers/', :body => 'users_answers')
 register(:url => 'questions/549/answers/', :body => 'answers_by_question_id')
 register(:url => 'questions/549/comments/', :body => 'comments_by_question_id')
+register(:url => 'users/333/questions/', :body => 'questions_by_user_id')
+register(:url => 'questions/1234/', :body => 'question_by_id')
+register(:url => 'questions/1234/?body=true', :body => 'question_by_id_with_body')
+register(:url => 'users/1/answers/', :body => 'users_answers')
 register(:url => 'users/555/', :body => 'users_by_id')
 register(:url => 'users/549/comments/', :body => 'comments_by_user_id')
 register(:url => 'users/549/mentioned/', :body => 'comments_by_mentioned_user_id')
