@@ -2,21 +2,21 @@ path = File.expand_path(File.dirname(__FILE__))
 $LOAD_PATH.unshift(path) unless $LOAD_PATH.include?(path)
 
 require 'rubygems'
+
 require 'zlib'
 require 'json'
 require 'open-uri'
 require 'forwardable'
 
 require 'pilha/stack_overflow/base'
-require 'pilha/stack_overflow/statistics'
-require 'pilha/stack_overflow/badge'
 require 'pilha/stack_overflow/user'
+require 'pilha/stack_overflow/badge'
 require 'pilha/stack_overflow/answer'
 require 'pilha/stack_overflow/comment'
 require 'pilha/stack_overflow/question'
+require 'pilha/stack_overflow/statistics'
 
 module StackExchange
-
   module StackOverflow
     class Client
       URL = 'http://api.stackoverflow.com/'

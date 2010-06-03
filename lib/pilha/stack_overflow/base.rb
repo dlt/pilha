@@ -3,12 +3,12 @@ module StackExchange
     class Base 
 
       class << self
-        def parse_with_class(hash, name, klass)
-          case hash[name]
+        def parse_with_class(hash, key, klass)
+          case hash[key]
             when Hash 
-              hash[name] = klass.new(hash[name])
+              hash[key] = klass.new(hash[key])
             when Array
-              hash[name] = hash[name].map { |value| klass.new(value) }
+              hash[key] = hash[key].map { |value| klass.new(value) }
           end
         end
 
