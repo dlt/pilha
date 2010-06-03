@@ -13,7 +13,6 @@ module StackExchange
                                :badge_counts
 
       class << self 
-
         def all(options = {})
           request('/users', nil, options)
         end

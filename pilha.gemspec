@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name = "pilha"
-  gem.version = "0.1.6"
+  gem.version = "0.1.7"
   gem.authors = ["Dalto Curvelano Junior"]
   gem.description = "A ruby wrapper to the Stack Exchange (Stack Overflow and friends) API."
   gem.summary = "A ruby wrapper to the Stack Exchange (Stack Overflow and friends) API."

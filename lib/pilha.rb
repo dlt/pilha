@@ -36,7 +36,7 @@ module StackExchange
 
         def init_client!(client)
           base_eigenclass = class << Base; self; end
-          base_eigenclass.send :define_method, 'client' do
+          base_eigenclass.send :define_method, :client do
             @client = client
           end
           client
