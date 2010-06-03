@@ -2,21 +2,21 @@ path = File.expand_path(File.dirname(__FILE__))
 $LOAD_PATH.unshift(path) unless $LOAD_PATH.include?(path)
 
 require 'rubygems'
+
 require 'zlib'
 require 'json'
 require 'open-uri'
 require 'forwardable'
 
 require 'pilha/stack_overflow/base'
-require 'pilha/stack_overflow/statistics'
-require 'pilha/stack_overflow/badge'
 require 'pilha/stack_overflow/user'
+require 'pilha/stack_overflow/badge'
 require 'pilha/stack_overflow/answer'
 require 'pilha/stack_overflow/comment'
 require 'pilha/stack_overflow/question'
+require 'pilha/stack_overflow/statistics'
 
 module StackExchange
-
   module StackOverflow
     class Client
       URL = 'http://api.stackoverflow.com/'
@@ -80,15 +80,13 @@ module StackExchange
 
       private
         def query_string(options)
-          if params = options[:query]
-            params = params.sort_by { |k, v| k.to_s }
+          params = options[:query] || options[:conditions]
+          return '' unless params
 
-            '?' + params.inject([]) do |arr, (key, value)|
-              arr << "#{key}=#{value}"
-            end.join('&')
-          else
-            ''
-          end
+          params = params.sort_by { |k, v| k.to_s }
+          pairs  = params.map { |key, value| "#{key}=#{value}" }
+
+          '?' + pairs.join('&')
         end
 
         def normalize(url)
