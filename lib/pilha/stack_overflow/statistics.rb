@@ -9,20 +9,14 @@ module StackExchange
                               :total_users, :questions_per_minute, :answers_per_minute,
                               :badges_per_minute, :api_version
 
-      def initialize(hash)
-        @struct = OpenStruct.new hash
-      end
-
       class << self
-
         def all(options = {})
           request('/stats', nil, options)
         end
 
-        private
-          def parse(response)
-            Statistics.new response['statistics'].first
-          end
+        def parse(response)
+          Statistics.new response['statistics'].first
+        end
       end
     end
   end

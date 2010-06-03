@@ -19,10 +19,6 @@ module StackExchange
           OpenStruct.new response
         end
       end
-
-      def initialize(hash)
-        @struct = OpenStruct.new hash
-      end
     end
   end
 end

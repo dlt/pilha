@@ -48,10 +48,6 @@ module StackExchange
         end
       end
 
-      def initialize(hash)
-        @struct = OpenStruct.new hash
-      end
-
       def id
         @struct.question_id
       end

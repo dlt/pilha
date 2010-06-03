@@ -21,6 +21,10 @@ module StackExchange
           parse client.request(path_pattern, options)
         end
       end
+
+      def initialize(hash)
+        @struct = OpenStruct.new hash
+      end
     end
   end
 end
