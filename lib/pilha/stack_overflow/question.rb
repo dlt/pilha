@@ -29,12 +29,15 @@ module StackExchange
             options = tags.last
             tags = tags[0, tags.size - 1]
           else
-            tags = [tags] if tags.size == 1
             options = {}
           end
 
           options.merge!(:conditions => { :tagged => tags.join('+') })
           request('/questions', nil, options)
+        end
+
+        def unanswered(options = {})
+          request('/questions/unanswered', nil, options)
         end
 
         def parse(response)

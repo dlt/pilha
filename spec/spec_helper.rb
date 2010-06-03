@@ -49,3 +49,4 @@ register(:url => 'users/77814/comments/549/', :body => 'comments_by_user_to_ment
 register(:url => 'users/549/favorites/', :body => 'favorite_questions_by_user_id')
 register(:url => 'questions/?tagged=ruby', :body => 'questions_tagged_ruby')
 register(:url => 'questions/?tagged=gwt+google-app-engine', :body => 'questions_tagged_gwt_and_googleappengine')
+register(:url => 'questions/unanswered/', :body => 'questions_unanswered')

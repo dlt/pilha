@@ -116,4 +116,13 @@ describe StackExchange::StackOverflow::Question do
       question.tags.should include 'google-app-engine'
     end
   end
+
+  it 'should get unanswered questions' do
+    response = StackOverflow::Question.unanswered
+    response.total.should == 110617
+    response.questions.size.should == response.pagesize
+
+    response.questions.first.id.should == 2965530
+    response.questions.first.tags.should == ['javascript', 'twitter', 'twitterapi']
+  end
 end
