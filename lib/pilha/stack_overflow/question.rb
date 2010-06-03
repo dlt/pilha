@@ -20,6 +20,10 @@ module StackExchange
           request('/users/:id/questions', id, options)
         end
 
+        def find_favorites_by_user_id(id, options = {})
+          request('/users/:id/favorites', id, options) 
+        end
+
         def parse(response)
           response['questions'].each do |comment|
             parse_with_class(comment, 'owner', User)

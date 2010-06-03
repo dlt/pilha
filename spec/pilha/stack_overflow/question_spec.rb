@@ -60,4 +60,38 @@ describe StackExchange::StackOverflow::Question do
     question.title.should == "Getting rid of gcc shift by negative warning"
     question.owner.id.should == 333
   end
+
+  it 'should find questions favorite to a user identified by id' do
+    response = StackOverflow::Question.find_favorites_by_user_id 549
+    response.total.should == 17
+    response.page.should == 1
+    response.pagesize.should == 30
+
+    questions = response.questions
+
+    question = response.questions.first
+
+    question.tags.should == ['nhibernate']
+    question.answer_count.should == 7
+    question.question_timeline_url.should == "/questions/451664/timeline"
+    question.question_comments_url.should == "/questions/451664/comments"
+    question.question_answers_url.should == "/questions/451664/answers"
+    question.id.should == 451664
+
+    owner = question.owner
+    owner.id.should == 52390
+    owner.user_type.should == "registered"
+    owner.display_name.should == "Przemek"
+    owner.reputation.should == 360
+    owner.email_hash.should == "46ee3f5f203756778eb8af634bbbfb7e"
+
+    question.creation_date.should == 1232134747
+    question.last_activity_date.should == 1274935956
+    question.up_vote_count.should == 2
+    question.down_vote_count.should be_zero
+    question.view_count.should == 886
+    question.score.should == 2
+    question.community_owned.should be_false
+    question.title.should == "Is there any NHibernate book?"
+  end
 end
