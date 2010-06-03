@@ -3,6 +3,8 @@ module StackExchange
     class Base 
 
       class << self
+        attr_reader :client
+
         def parse_with_class(hash, key, klass)
           case hash[key]
             when Hash 
@@ -16,7 +18,6 @@ module StackExchange
           options.merge! :id => id if id
           parse client.request(path_pattern, options)
         end
-
       end
     end
   end

@@ -14,7 +14,6 @@ module StackExchange
       end
 
       class << self
-        attr_reader :client
 
         def all(options = {})
           request('/stats', nil, options)

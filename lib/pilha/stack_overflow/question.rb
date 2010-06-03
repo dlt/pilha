@@ -10,7 +10,6 @@ module StackExchange
                                :question_comments_url, :question_answers_url, :owner
 
       class << self 
-        attr_reader :client
 
         def find(id, options = {})
           request('/questions/:id/', id, options).questions.first

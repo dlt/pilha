@@ -7,7 +7,6 @@ module StackExchange
                      :post_type, :score, :body
 
       class << self 
-        attr_reader :client
 
         def find(id, options = {})
           request('/comments/:id/', id, options)

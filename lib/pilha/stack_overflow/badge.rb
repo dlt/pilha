@@ -8,7 +8,6 @@ module StackExchange
                                :award_count, :tag_based, :badges_recipients_url
 
       class << self 
-        attr_reader :client
 
         def all(options = {})
           method = select_method(options)
@@ -21,7 +20,7 @@ module StackExchange
         end
 
         def parse(response)
-          response['badges'] = response['badges'].map { |badge| Badge.new badge }
+          parse_with_class(response, 'badges', Badge)
           OpenStruct.new response
         end
       end

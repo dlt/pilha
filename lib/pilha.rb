@@ -30,14 +30,13 @@ module StackExchange
         def config &block
           options = OpenStruct.new
           yield options if block_given?
-
-          client = Client.new(options)
-          include_client(client, Badge, Statistics, User, Answer, Comment, Question)
+          init_client! Client.new(options)
         end
 
-        def include_client(client, *classes)
-          classes.each do |klass|
-            klass.instance_variable_set(:@client, client)
+        def init_client!(client)
+          base_eigenclass = class << Base; self; end
+          base_eigenclass.send :define_method, 'client' do
+            @client = client
           end
         end
       end

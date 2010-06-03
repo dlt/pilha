@@ -8,7 +8,6 @@ module StackExchange
                      :view_count, :score, :community_owned, :title, :comments
 
       class << self
-        attr_reader :client
 
         def find(id, options = {})
           request('/answers/:id', id, options).answers.first
