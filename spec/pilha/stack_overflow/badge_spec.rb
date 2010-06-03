@@ -2,10 +2,6 @@ require 'spec_helper'
 
 describe StackExchange::StackOverflow::Badge do
 
-  before do
-    StackExchange::StackOverflow::Client.config
-  end
-
   describe 'when querying for badges' do
     it 'should return all badges' do
       response = StackOverflow::Badge.all

@@ -3,7 +3,9 @@ module StackExchange
     class Base 
 
       class << self
-        attr_reader :client
+        def client
+          @client ||= StackExchange::StackOverflow::Client.config
+        end
 
         def parse_with_class(hash, key, klass)
           case hash[key]

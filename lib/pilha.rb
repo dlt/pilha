@@ -39,6 +39,7 @@ module StackExchange
           base_eigenclass.send :define_method, 'client' do
             @client = client
           end
+          client
         end
       end
 

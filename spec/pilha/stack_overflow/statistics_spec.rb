@@ -2,10 +2,6 @@ require 'spec_helper'
 
 describe StackExchange::StackOverflow::Statistics do
 
-  before do
-    StackExchange::StackOverflow::Client.config
-  end
-
   describe 'when querying for statistics' do
     it "should return the stack overflow's statistics" do
       response = StackOverflow::Statistics.all
