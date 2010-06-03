@@ -9,6 +9,7 @@ require 'open-uri'
 require 'forwardable'
 
 require 'pilha/stack_overflow/base'
+require 'pilha/stack_overflow/tag'
 require 'pilha/stack_overflow/user'
 require 'pilha/stack_overflow/badge'
 require 'pilha/stack_overflow/answer'
@@ -49,7 +50,7 @@ module StackExchange
 
       def api_method_path(pattern, options = {})
         pattern = normalize(pattern)
-        parts = pattern.split('/').select { |part| part =~ /^:/ }
+        parts   = pattern.split('/').select { |part| part =~ /^:/ }
 
         parts.each do |part|
           key = part.sub(':', '').intern
