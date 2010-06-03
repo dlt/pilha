@@ -94,4 +94,26 @@ describe StackExchange::StackOverflow::Question do
     question.community_owned.should be_false
     question.title.should == "Is there any NHibernate book?"
   end
+
+
+
+  it 'should get questions by tag' do
+    response = StackOverflow::Question.find_by_tags('ruby')
+    response.total.should == 10153
+
+    questions = response.questions
+    questions.each do |question|
+      question.tags.should include 'ruby'
+    end
+  end
+
+  it 'should get questions containing multiple tags' do
+    response = StackOverflow::Question.find_by_tags('gwt', 'google-app-engine')
+
+    questions = response.questions
+    questions.each do |question|
+      question.tags.should include 'gwt'
+      question.tags.should include 'google-app-engine'
+    end
+  end
 end

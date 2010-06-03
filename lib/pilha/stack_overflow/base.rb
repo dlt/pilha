@@ -17,10 +17,6 @@ module StackExchange
           parse client.request(path_pattern, options)
         end
 
-        def client
-          StackExchange::StackOverflow::Client.config unless @client
-          @client
-        end
       end
     end
   end

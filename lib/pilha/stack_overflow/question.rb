@@ -24,6 +24,19 @@ module StackExchange
           request('/users/:id/favorites', id, options) 
         end
 
+        def find_by_tags(*tags)
+          if tags.last.is_a? Hash
+            options = tags.last
+            tags = tags[0, tags.size - 1]
+          else
+            tags = [tags] if tags.size == 1
+            options = {}
+          end
+
+          options.merge!(:conditions => { :tagged => tags.join('+') })
+          request('/questions', nil, options)
+        end
+
         def parse(response)
           response['questions'].each do |comment|
             parse_with_class(comment, 'owner', User)

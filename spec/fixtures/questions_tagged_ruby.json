@@ -1,0 +1,877 @@
+{
+  "total": 10153,
+  "page": 1,
+  "pagesize": 30,
+  "questions": [
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "authentication"
+      ],
+      "answer_count": 11,
+      "accepted_answer_id": 24302,
+      "favorite_count": 6,
+      "question_timeline_url": "/questions/24298/timeline",
+      "question_comments_url": "/questions/24298/comments",
+      "question_answers_url": "/questions/24298/answers",
+      "question_id": 24298,
+      "owner": {
+        "user_id": 168,
+        "user_type": "registered",
+        "display_name": "Dan Wolchonok",
+        "reputation": 368,
+        "email_hash": "3e1c956f37a44c5b5ad78275eb5cb631"
+      },
+      "creation_date": 1219505231,
+      "last_edit_date": 1219611462,
+      "last_activity_date": 1275539494,
+      "up_vote_count": 12,
+      "down_vote_count": 0,
+      "view_count": 3002,
+      "score": 12,
+      "community_owned": false,
+      "title": "Best Solution For Authentication in Ruby on Rails"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "testing",
+        "server"
+      ],
+      "answer_count": 3,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/702180/timeline",
+      "question_comments_url": "/questions/702180/comments",
+      "question_answers_url": "/questions/702180/answers",
+      "question_id": 702180,
+      "owner": {
+        "user_id": 70057,
+        "user_type": "registered",
+        "display_name": "kareem",
+        "reputation": 91,
+        "email_hash": "889352fafbee781d2340736cd15876f9"
+      },
+      "creation_date": 1238521150,
+      "last_activity_date": 1275547339,
+      "up_vote_count": 1,
+      "down_vote_count": 0,
+      "view_count": 304,
+      "score": 1,
+      "community_owned": false,
+      "title": "Did test server port change in Rails 2.3?"
+    },
+    {
+      "tags": [
+        "ruby",
+        "vista",
+        "aptana",
+        "mongrel"
+      ],
+      "answer_count": 1,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2582283/timeline",
+      "question_comments_url": "/questions/2582283/comments",
+      "question_answers_url": "/questions/2582283/answers",
+      "question_id": 2582283,
+      "owner": {
+        "user_id": 98252,
+        "user_type": "registered",
+        "display_name": "floatingfrisbee",
+        "reputation": 81,
+        "email_hash": "5e37c1da4d66a3df72a928ff2dfa9c0b"
+      },
+      "creation_date": 1270520062,
+      "last_activity_date": 1275531364,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 114,
+      "score": 0,
+      "community_owned": false,
+      "title": "Error loading Mongrel in Aptana Ruby Application on Vista"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "haml",
+        "ruby-on-rails3beta"
+      ],
+      "answer_count": 2,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2623349/timeline",
+      "question_comments_url": "/questions/2623349/comments",
+      "question_answers_url": "/questions/2623349/answers",
+      "question_id": 2623349,
+      "owner": {
+        "user_id": 43896,
+        "user_type": "registered",
+        "display_name": "CJ Bryan",
+        "reputation": 84,
+        "email_hash": "09b1899edc65e476f8893144f0c786df"
+      },
+      "creation_date": 1271087219,
+      "last_edit_date": 1274575332,
+      "last_activity_date": 1275522077,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 176,
+      "score": 0,
+      "community_owned": true,
+      "title": "Rails 3 Beta 2, Haml, Nested Layouts and LocalJumpError"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "pdf",
+        "prawn"
+      ],
+      "answer_count": 2,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2716148/timeline",
+      "question_comments_url": "/questions/2716148/comments",
+      "question_answers_url": "/questions/2716148/answers",
+      "question_id": 2716148,
+      "owner": {
+        "user_id": 143148,
+        "user_type": "registered",
+        "display_name": "Mike",
+        "reputation": 187,
+        "email_hash": "bd54294eb31aa4082836b46cd7144d5a"
+      },
+      "creation_date": 1272309193,
+      "last_activity_date": 1275543340,
+      "up_vote_count": 1,
+      "down_vote_count": 0,
+      "view_count": 45,
+      "score": 1,
+      "community_owned": false,
+      "title": "watermark existing pdf with  ruby"
+    },
+    {
+      "tags": [
+        "ruby",
+        "segmentation-fault",
+        "sinatra",
+        "rmagick",
+        "ruby1.9.1"
+      ],
+      "answer_count": 3,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2838307/timeline",
+      "question_comments_url": "/questions/2838307/comments",
+      "question_answers_url": "/questions/2838307/answers",
+      "question_id": 2838307,
+      "owner": {
+        "user_id": 98141,
+        "user_type": "registered",
+        "display_name": "Grant Heaslip",
+        "reputation": 54,
+        "email_hash": "6de058cc8e83ca4722d9750293338f32"
+      },
+      "creation_date": 1273880766,
+      "last_activity_date": 1275544770,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 45,
+      "score": 0,
+      "community_owned": false,
+      "title": "Why is this RMagick call generating a segmentation fault?"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "xml",
+        "ruby",
+        "nokogiri"
+      ],
+      "answer_count": 1,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2878228/timeline",
+      "question_comments_url": "/questions/2878228/comments",
+      "question_answers_url": "/questions/2878228/answers",
+      "question_id": 2878228,
+      "owner": {
+        "user_id": 346595,
+        "user_type": "unregistered",
+        "display_name": "Galen King",
+        "reputation": 6,
+        "email_hash": "360c646bcb53d72abcc15d0389abad87"
+      },
+      "creation_date": 1274393608,
+      "last_activity_date": 1275530899,
+      "up_vote_count": 1,
+      "down_vote_count": 0,
+      "view_count": 70,
+      "score": 1,
+      "community_owned": false,
+      "title": "Parsing XML feed into Ruby object using nokogiri?"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "certification",
+        "rails-certification"
+      ],
+      "answer_count": 2,
+      "favorite_count": 2,
+      "question_timeline_url": "/questions/2902162/timeline",
+      "question_comments_url": "/questions/2902162/comments",
+      "question_answers_url": "/questions/2902162/answers",
+      "question_id": 2902162,
+      "owner": {
+        "user_id": 297087,
+        "user_type": "registered",
+        "display_name": "Salil",
+        "reputation": 3166,
+        "email_hash": "c42c706fab23da0b6d3cd2cfbb8db27d"
+      },
+      "creation_date": 1274764151,
+      "last_edit_date": 1274796364,
+      "last_activity_date": 1275542680,
+      "up_vote_count": 3,
+      "down_vote_count": 0,
+      "view_count": 87,
+      "score": 3,
+      "community_owned": false,
+      "title": "Certification for Rails?"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "activeresource",
+        "rails3"
+      ],
+      "answer_count": 0,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2918419/timeline",
+      "question_comments_url": "/questions/2918419/comments",
+      "question_answers_url": "/questions/2918419/answers",
+      "question_id": 2918419,
+      "owner": {
+        "user_id": 23128,
+        "user_type": "registered",
+        "display_name": "Jared",
+        "reputation": 514,
+        "email_hash": "238ef07c3c64486de45c3751c9c88726"
+      },
+      "creation_date": 1274933818,
+      "last_edit_date": 1275524668,
+      "last_activity_date": 1275524668,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 25,
+      "score": 0,
+      "community_owned": false,
+      "title": "Add api key to every request in ActiveResource"
+    },
+    {
+      "tags": [
+        "windows",
+        "ruby",
+        "linux",
+        "rubygems"
+      ],
+      "answer_count": 2,
+      "favorite_count": 0,
+      "bounty_closes_date": 1276127085,
+      "bounty_amount": 100,
+      "question_timeline_url": "/questions/2933271/timeline",
+      "question_comments_url": "/questions/2933271/comments",
+      "question_answers_url": "/questions/2933271/answers",
+      "question_id": 2933271,
+      "owner": {
+        "user_id": 94154,
+        "user_type": "registered",
+        "display_name": "user94154",
+        "reputation": 340,
+        "email_hash": "5317865dc121a69c375a6daf722ca9ec"
+      },
+      "creation_date": 1275093243,
+      "last_activity_date": 1275523235,
+      "up_vote_count": 1,
+      "down_vote_count": 0,
+      "view_count": 37,
+      "score": 1,
+      "community_owned": false,
+      "title": "require 'rubygems' for linux but not in windows. why? and can I fix this?"
+    },
+    {
+      "tags": [
+        "python",
+        "ruby",
+        "programming-languages",
+        "dynamic-languages"
+      ],
+      "answer_count": 3,
+      "favorite_count": 0,
+      "closed_date": 1275467333,
+      "closed_reason": "exact duplicate",
+      "question_timeline_url": "/questions/2955072/timeline",
+      "question_comments_url": "/questions/2955072/comments",
+      "question_answers_url": "/questions/2955072/answers",
+      "question_id": 2955072,
+      "owner": {
+        "user_id": 68467,
+        "user_type": "registered",
+        "display_name": "Seburdis",
+        "reputation": 294,
+        "email_hash": "e33e31224d9fe76677ad954d2f67b454"
+      },
+      "creation_date": 1275454216,
+      "last_activity_date": 1275546140,
+      "up_vote_count": 3,
+      "down_vote_count": 0,
+      "view_count": 191,
+      "score": 3,
+      "community_owned": false,
+      "title": "Advantages/disadvantages of Python and Ruby"
+    },
+    {
+      "tags": [
+        "ruby",
+        "refactoring"
+      ],
+      "answer_count": 2,
+      "favorite_count": 2,
+      "question_timeline_url": "/questions/2958443/timeline",
+      "question_comments_url": "/questions/2958443/comments",
+      "question_answers_url": "/questions/2958443/answers",
+      "question_id": 2958443,
+      "owner": {
+        "user_id": 31610,
+        "user_type": "registered",
+        "display_name": "Geo",
+        "reputation": 8303,
+        "email_hash": "d4c0558e1220b5b3e4acd38a6a7cceeb"
+      },
+      "creation_date": 1275487423,
+      "last_activity_date": 1275522734,
+      "up_vote_count": 2,
+      "down_vote_count": 0,
+      "view_count": 44,
+      "score": 2,
+      "community_owned": false,
+      "title": "How can I find unused methods in a Ruby app?"
+    },
+    {
+      "tags": [
+        "ruby",
+        "jquery-ajax",
+        "rails"
+      ],
+      "answer_count": 1,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2959186/timeline",
+      "question_comments_url": "/questions/2959186/comments",
+      "question_answers_url": "/questions/2959186/answers",
+      "question_id": 2959186,
+      "owner": {
+        "user_id": 346263,
+        "user_type": "registered",
+        "display_name": "whazzmaster",
+        "reputation": 1,
+        "email_hash": "0fa3f092e6775a33a0ac14dd71604e22"
+      },
+      "creation_date": 1275492885,
+      "last_activity_date": 1275540039,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 10,
+      "score": 0,
+      "community_owned": false,
+      "title": "Rails controller not rendering correct view when form is force-submitted by Javascript"
+    },
+    {
+      "tags": [
+        "ruby",
+        "file-io",
+        "hpricot"
+      ],
+      "answer_count": 1,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2960470/timeline",
+      "question_comments_url": "/questions/2960470/comments",
+      "question_answers_url": "/questions/2960470/answers",
+      "question_id": 2960470,
+      "owner": {
+        "user_id": 131441,
+        "user_type": "registered",
+        "display_name": "John",
+        "reputation": 200,
+        "email_hash": "4503e3aae4c4f695ea248fdf95845b92"
+      },
+      "creation_date": 1275503618,
+      "last_activity_date": 1275526853,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 16,
+      "score": 0,
+      "community_owned": false,
+      "title": "Ruby - Writing Hpricot data to a file"
+    },
+    {
+      "tags": [
+        "ruby",
+        "rails"
+      ],
+      "answer_count": 0,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2961248/timeline",
+      "question_comments_url": "/questions/2961248/comments",
+      "question_answers_url": "/questions/2961248/answers",
+      "question_id": 2961248,
+      "owner": {
+        "user_id": 356849,
+        "user_type": "registered",
+        "display_name": "user356849",
+        "reputation": 1,
+        "email_hash": "8dd27651fceb1111db19d826972f4392"
+      },
+      "creation_date": 1275509538,
+      "last_edit_date": 1275525894,
+      "last_activity_date": 1275525894,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 4,
+      "score": 0,
+      "community_owned": false,
+      "title": "Custom Drop Down box in Ruby on Rails with links as a couple of the options."
+    },
+    {
+      "tags": [
+        "c++",
+        "ruby",
+        "shared-libraries",
+        "compiler-optimization",
+        "extconf.rb"
+      ],
+      "answer_count": 2,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2962287/timeline",
+      "question_comments_url": "/questions/2962287/comments",
+      "question_answers_url": "/questions/2962287/answers",
+      "question_id": 2962287,
+      "owner": {
+        "user_id": 170300,
+        "user_type": "registered",
+        "display_name": "mohawkjohn",
+        "reputation": 32,
+        "email_hash": "010a66cfbeeb274b2b3da337e28b74c9"
+      },
+      "creation_date": 1275520365,
+      "last_activity_date": 1275548920,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 18,
+      "score": 0,
+      "community_owned": false,
+      "title": "How would I instruct extconf.rb to use additional g++ optimization flags, and which are advisable?"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby"
+      ],
+      "answer_count": 3,
+      "accepted_answer_id": 2962715,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2962692/timeline",
+      "question_comments_url": "/questions/2962692/comments",
+      "question_answers_url": "/questions/2962692/answers",
+      "question_id": 2962692,
+      "owner": {
+        "user_id": 357010,
+        "user_type": "registered",
+        "display_name": "Sainath Mallidi",
+        "reputation": 8,
+        "email_hash": "aeb0552279d07ef79b82de287e55b4d5"
+      },
+      "creation_date": 1275526618,
+      "last_activity_date": 1275558970,
+      "up_vote_count": 1,
+      "down_vote_count": 0,
+      "view_count": 44,
+      "score": 1,
+      "community_owned": false,
+      "title": "Regular expression in Ruby"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "unit-testing"
+      ],
+      "answer_count": 2,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2962905/timeline",
+      "question_comments_url": "/questions/2962905/comments",
+      "question_answers_url": "/questions/2962905/answers",
+      "question_id": 2962905,
+      "owner": {
+        "user_id": 357040,
+        "user_type": "registered",
+        "display_name": "Jason Langenauer",
+        "reputation": 1,
+        "email_hash": "f0b6b1ff0a0c7e09acfaf1c0efe7515e"
+      },
+      "creation_date": 1275530702,
+      "last_activity_date": 1275539214,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 16,
+      "score": 0,
+      "community_owned": false,
+      "title": "How to test the XML sent to a web service in Ruby/Rails"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "authentication"
+      ],
+      "answer_count": 1,
+      "accepted_answer_id": 2963059,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2963025/timeline",
+      "question_comments_url": "/questions/2963025/comments",
+      "question_answers_url": "/questions/2963025/answers",
+      "question_id": 2963025,
+      "owner": {
+        "user_id": 175836,
+        "user_type": "registered",
+        "display_name": "randombits",
+        "reputation": 259,
+        "email_hash": "d3b5a5015d8459c645abe6e906b9e77b"
+      },
+      "creation_date": 1275533127,
+      "last_activity_date": 1275533739,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 18,
+      "score": 0,
+      "community_owned": false,
+      "title": "Rails 2.x http basic authentication"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby"
+      ],
+      "answer_count": 0,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2963116/timeline",
+      "question_comments_url": "/questions/2963116/comments",
+      "question_answers_url": "/questions/2963116/answers",
+      "question_id": 2963116,
+      "owner": {
+        "user_id": 175836,
+        "user_type": "registered",
+        "display_name": "randombits",
+        "reputation": 259,
+        "email_hash": "d3b5a5015d8459c645abe6e906b9e77b"
+      },
+      "creation_date": 1275534885,
+      "last_activity_date": 1275534885,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 12,
+      "score": 0,
+      "community_owned": false,
+      "title": "Rails 2.x provide meaningful error message with http basic authentication"
+    },
+    {
+      "tags": [
+        "ruby",
+        "conditional",
+        "rails"
+      ],
+      "answer_count": 2,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2963597/timeline",
+      "question_comments_url": "/questions/2963597/comments",
+      "question_answers_url": "/questions/2963597/answers",
+      "question_id": 2963597,
+      "owner": {
+        "user_id": 357144,
+        "user_type": "unregistered",
+        "display_name": "James Ferguson",
+        "reputation": 1,
+        "email_hash": "8e2db79a6d55c54086049d951ab0c2b3"
+      },
+      "creation_date": 1275544450,
+      "last_activity_date": 1275547651,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 12,
+      "score": 0,
+      "community_owned": false,
+      "title": "validates_associated not honoring :if"
+    },
+    {
+      "tags": [
+        "java",
+        "python",
+        "ruby"
+      ],
+      "answer_count": 1,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2963615/timeline",
+      "question_comments_url": "/questions/2963615/comments",
+      "question_answers_url": "/questions/2963615/answers",
+      "question_id": 2963615,
+      "owner": {
+        "user_id": 224922,
+        "user_type": "registered",
+        "display_name": "fayer",
+        "reputation": 1339,
+        "email_hash": "e088f807ebe86667f19f4c215737cf53"
+      },
+      "creation_date": 1275544788,
+      "last_activity_date": 1275552743,
+      "up_vote_count": 0,
+      "down_vote_count": 1,
+      "view_count": 52,
+      "score": -1,
+      "community_owned": false,
+      "title": "multi threading python/ruby vs java?"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "routing",
+        "cms",
+        "rails-routing"
+      ],
+      "answer_count": 2,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2963799/timeline",
+      "question_comments_url": "/questions/2963799/comments",
+      "question_answers_url": "/questions/2963799/answers",
+      "question_id": 2963799,
+      "owner": {
+        "user_id": 340939,
+        "user_type": "registered",
+        "display_name": "matsko",
+        "reputation": 11,
+        "email_hash": "3c0ca2c60c5cc418c6b3dbed47b23b69"
+      },
+      "creation_date": 1275547531,
+      "last_activity_date": 1275559565,
+      "up_vote_count": 2,
+      "down_vote_count": 0,
+      "view_count": 20,
+      "score": 2,
+      "community_owned": false,
+      "title": "Creating an Admin directory in Rails"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "engine"
+      ],
+      "answer_count": 2,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2964050/timeline",
+      "question_comments_url": "/questions/2964050/comments",
+      "question_answers_url": "/questions/2964050/answers",
+      "question_id": 2964050,
+      "owner": {
+        "user_id": 174385,
+        "user_type": "registered",
+        "display_name": "sinsiliux",
+        "reputation": 95,
+        "email_hash": "97f7778bd994b7e4c5ad025be0640bde"
+      },
+      "creation_date": 1275550635,
+      "last_activity_date": 1275562291,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 10,
+      "score": 0,
+      "community_owned": false,
+      "title": "Rails engines extending functionality"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "activerecord"
+      ],
+      "answer_count": 2,
+      "accepted_answer_id": 2964123,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2964060/timeline",
+      "question_comments_url": "/questions/2964060/comments",
+      "question_answers_url": "/questions/2964060/answers",
+      "question_id": 2964060,
+      "owner": {
+        "user_id": 351823,
+        "user_type": "registered",
+        "display_name": "Hadi",
+        "reputation": 19,
+        "email_hash": "289a633dc4f76e8c0623e6ab8ab888a3"
+      },
+      "creation_date": 1275550717,
+      "last_activity_date": 1275551459,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 17,
+      "score": 0,
+      "community_owned": false,
+      "title": "initializing variables in ActiveRecord's classes"
+    },
+    {
+      "tags": [
+        "ruby",
+        "date",
+        "sinatra",
+        "datamapper"
+      ],
+      "answer_count": 0,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2964283/timeline",
+      "question_comments_url": "/questions/2964283/comments",
+      "question_answers_url": "/questions/2964283/answers",
+      "question_id": 2964283,
+      "owner": {
+        "user_id": 177136,
+        "user_type": "registered",
+        "display_name": "Gearóid",
+        "reputation": 78,
+        "email_hash": "294809707d8ef84c3da34cb6afb59d7e"
+      },
+      "creation_date": 1275553227,
+      "last_activity_date": 1275553227,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 7,
+      "score": 0,
+      "community_owned": false,
+      "title": "Set date format in ruby model (sinatra/datamapper)"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "haml",
+        "sass"
+      ],
+      "answer_count": 0,
+      "favorite_count": 1,
+      "question_timeline_url": "/questions/2964501/timeline",
+      "question_comments_url": "/questions/2964501/comments",
+      "question_answers_url": "/questions/2964501/answers",
+      "question_id": 2964501,
+      "owner": {
+        "user_id": 334545,
+        "user_type": "registered",
+        "display_name": "corroded",
+        "reputation": 421,
+        "email_hash": "a53cdbd5cbc6e9fc944d35331a32e63c"
+      },
+      "creation_date": 1275555631,
+      "last_edit_date": 1275558173,
+      "last_activity_date": 1275558173,
+      "up_vote_count": 1,
+      "down_vote_count": 0,
+      "view_count": 9,
+      "score": 1,
+      "community_owned": false,
+      "title": "accessing Ruby variable(from model or controller) in SASS"
+    },
+    {
+      "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "act"
+      ],
+      "answer_count": 0,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2964578/timeline",
+      "question_comments_url": "/questions/2964578/comments",
+      "question_answers_url": "/questions/2964578/answers",
+      "question_id": 2964578,
+      "owner": {
+        "user_id": 321880,
+        "user_type": "registered",
+        "display_name": "Small Wolf",
+        "reputation": 16,
+        "email_hash": "9d438bc8e2498ccb87754c9e41674ccd"
+      },
+      "creation_date": 1275556518,
+      "last_edit_date": 1275562296,
+      "last_activity_date": 1275562296,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "view_count": 12,
+      "score": 0,
+      "community_owned": false,
+      "title": "Tell me how to use ActiveRecord#after_add"
+    },
+    {
+      "tags": [
+        "ruby",
+        "rubygems",
+        "install",
+        "rake"
+      ],
+      "answer_count": 1,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2964865/timeline",
+      "question_comments_url": "/questions/2964865/comments",
+      "question_answers_url": "/questions/2964865/answers",
+      "question_id": 2964865,
+      "owner": {
+        "user_id": 343743,
+        "user_type": "registered",
+        "display_name": "intern",
+        "reputation": 19,
+        "email_hash": "588f9193eeb920367ed9055248703f3c"
+      },
+      "creation_date": 1275559438,
+      "last_edit_date": 1275560314,
+      "last_activity_date": 1275560314,
+      "up_vote_count": 1,
+      "down_vote_count": 0,
+      "view_count": 4,
+      "score": 1,
+      "community_owned": false,
+      "title": "Installing rake"
+    },
+    {
+      "tags": [
+        "ruby",
+        "best-practices",
+        "exception"
+      ],
+      "answer_count": 1,
+      "favorite_count": 0,
+      "question_timeline_url": "/questions/2965036/timeline",
+      "question_comments_url": "/questions/2965036/comments",
+      "question_answers_url": "/questions/2965036/answers",
+      "question_id": 2965036,
+      "owner": {
+        "user_id": 31610,
+        "user_type": "registered",
+        "display_name": "Geo",
+        "reputation": 8303,
+        "email_hash": "d4c0558e1220b5b3e4acd38a6a7cceeb"
+      },
+      "creation_date": 1275560794,
+      "last_activity_date": 1275561259,
+      "up_vote_count": 1,
+      "down_vote_count": 0,
+      "view_count": 8,
+      "score": 1,
+      "community_owned": false,
+      "title": "Is grouping your verification code in one Ruby method a code smell?"
+    }
+  ]
+}
