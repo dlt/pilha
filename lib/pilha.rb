@@ -7,6 +7,7 @@ require 'zlib'
 require 'json'
 require 'open-uri'
 require 'forwardable'
+require 'ostruct'
 
 require 'pilha/stack_overflow/base'
 require 'pilha/stack_overflow/tag'
@@ -21,7 +22,7 @@ module StackExchange
   module StackOverflow
     class Client
       URL = 'http://api.stackoverflow.com/'
-      API_VERSION = '0.8'
+      API_VERSION = '1.0'
 
       attr_reader :url
       attr_reader :api_version
