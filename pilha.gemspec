@@ -12,5 +12,6 @@ Gem::Specification.new do |gem|
 
   gem.require_path = 'lib'
 
+  gem.add_dependency('json', '>= 1.4.0')
   gem.add_development_dependency "rspec"
 end
