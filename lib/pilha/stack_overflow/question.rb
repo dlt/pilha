@@ -38,6 +38,10 @@ module StackExchange
         def unanswered(options = {})
           request('/questions/unanswered', nil, options)
         end
+        
+        def recent(options = {})
+          request('/questions', nil, options)
+        end
 
         def parse(response)
           response['questions'].each do |comment|
