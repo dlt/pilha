@@ -11,6 +11,10 @@ module StackExchange
 
       class << self 
 
+        def all(options = {})
+          request('/questions', nil, options)
+        end
+
         def find(id, options = {})
           request('/questions/:id/', id, options).questions.first
         end
@@ -37,10 +41,6 @@ module StackExchange
 
         def unanswered(options = {})
           request('/questions/unanswered', nil, options)
-        end
-        
-        def recent(options = {})
-          request('/questions', nil, options)
         end
 
         def parse(response)

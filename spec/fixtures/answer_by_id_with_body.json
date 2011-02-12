@@ -1,0 +1,29 @@
+{
+  "total": 1,
+  "page": 1,
+  "pagesize": 30,
+  "answers": [
+    {
+      "answer_id": 666,
+      "accepted": false,
+      "answer_comments_url": "/answers/666/comments",
+      "question_id": 664,
+      "owner": {
+        "user_id": 58,
+        "user_type": "registered",
+        "display_name": "cmcculloh",
+        "reputation": 3462,
+        "email_hash": "298e0497aa6b76a573f17e6a2bb22dec"
+      },
+      "creation_date": 1217766782,
+      "last_activity_date": 1217766782,
+      "up_vote_count": 25,
+      "down_vote_count": 0,
+      "view_count": 1366,
+      "score": 25,
+      "community_owned": false,
+      "title": "What level of programming should I have to contribute to open source?",
+      "body": "<p>Absolutely not.</p>\r\n\r\n<p>Probably the best thing you could do though, might not be to actually program at all, but rather test test test. You can be great at testing because not only can you find all the little wacky problems, but you could pop open the code and find the areas causing the problems (possibly) and point them out even if you can't fix them. For instance:</p>\r\n\r\n<p>You find a bug, \"It looks like when I edit my own post, if it has up or down mods, I get those mod points added to my account again! Over and over even!\".</p>\r\n\r\n<p>So then you open the code and find the section that adds points and say, \"hrm... it looks like the logic here is broken. It's lines 589-633 in file \"modAdd.aspx\"... I'll submit a bug report with this info\".</p>\r\n\r\n<p>Now, if you got in over your head and started submitting all this bad code and brazenly demanding it get included, then you are <em>making</em> a hindrance of yourself. But it doesn't have to be that way.</p>\r\n\r\n<p>Another great thing you could do would be documentation. Telling users how to use the app in plain english. Or even work on the website for the project. Many open source projects need lots of help in these areas. Often you will go to a project's website, and have no idea what that project is even about, or how to even download it...</p>"
+    }
+  ]
+}

@@ -2,6 +2,41 @@ require 'spec_helper'
 
 describe StackExchange::StackOverflow::Question do
 
+  it 'should return a list of questions' do
+    response = StackOverflow::Question.all
+    response.total.should == 701674
+    response.page.should == 1
+    response.pagesize.should == 30
+    
+    questions = response.questions
+    question = questions.first
+    
+    question.tags.should == ['python', 'django']
+    question.answer_count.should == 0
+    question.answers.should be_instance_of Array
+    question.answers.size.should == 0
+    question.favorite_count.should == 0
+    question.question_timeline_url.should == "/questions/2943174/timeline"
+    question.question_comments_url.should == "/questions/2943174/comments"
+    question.question_answers_url.should == "/questions/2943174/answers"
+    question.id.should == 2943174
+    question.creation_date.should == 1275304964
+    question.last_activity_date.should == 1275304964
+    question.up_vote_count.should == 0
+    question.down_vote_count.should == 0
+    question.view_count.should == 0
+    question.score.should == 0
+    question.community_owned.should == false
+    question.title.should == "Django - count date between"
+    
+    owner = question.owner
+    owner.user_id.should == 354538
+    owner.display_name.should == "DJPy"
+    owner.user_type.should == "unregistered"
+    owner.reputation.should == 1
+    owner.email_hash.should == "75896ac961d6cfc55d21d297cc3b11b3"
+  end
+
   it 'should return a question identified by its id (without body)' do
     question = StackOverflow::Question.find 1234
     question.id.should == 1234
@@ -94,8 +129,6 @@ describe StackExchange::StackOverflow::Question do
     question.community_owned.should be_false
     question.title.should == "Is there any NHibernate book?"
   end
-
-
 
   it 'should get questions by tag' do
     response = StackOverflow::Question.find_by_tags('ruby')

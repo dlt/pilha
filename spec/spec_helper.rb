@@ -26,14 +26,15 @@ def api_method_url(method)
   ROOT_URL + '/' + method
 end
 
-['stats', 'badges' ].each do |method|
+['stats', 'badges', 'questions'].each do |method|
   register :url => method + '/', :body => method
 end
 
 register(:url => 'badges/9/', :body => 'badges_by_id')
 register(:url => 'badges/9/?pagesize=50', :body => 'badges_by_id_page2')
 register(:url => 'badges/tags/', :body => 'badges_tag_based')
-register(:url => 'answers/666/', :body => 'answers_by_id')
+register(:url => 'answers/666/', :body => 'answer_by_id')
+register(:url => 'answers/666/?body=true', :body => 'answer_by_id_with_body')
 register(:url => 'answers/555/', :body => 'answer_with_comments')
 register(:url => 'comments/1/', :body => 'comments')
 register(:url => 'questions/549/answers/', :body => 'answers_by_question_id')
