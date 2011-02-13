@@ -4,7 +4,7 @@ A object oriented wrapper for the StackExchange/StackOverflow API
 
 == Why such a strange name?
 
-'Pilha'(pronounced peeleeah) means 'stack' in portuguese.
+'Pilha' (pronounced peeleeah) means 'stack' in portuguese.
 
 == Instalation
 
@@ -24,7 +24,8 @@ Pilha aims to provide a ActiveRecord like interface for querying the StackExchan
 
 = Contributors
 
-  Michael Barton (https://github.com/michaelbarton)
+  Michael Barton (http://github.com/michaelbarton)
+  Thomas McDonald (http://github.com/conceptcoding)
 
 = License
 
