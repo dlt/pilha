@@ -9,10 +9,10 @@ module StackExchange
 
         def parse_with_class(hash, key, klass)
           case hash[key]
-            when Hash 
-              hash[key] = klass.new(hash[key])
-            when Array
-              hash[key] = hash[key].map { |value| klass.new(value) }
+          when Hash
+            hash[key] = klass.new(hash[key])
+          when Array
+            hash[key] = hash[key].map { |value| klass.new(value) }
           end
         end
 

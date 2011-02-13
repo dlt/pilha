@@ -45,7 +45,7 @@ module StackExchange
       end
 
       def initialize(options = OpenStruct.new)
-        @url = normalize(options.url || URL )
+        @url = normalize(options.url || URL)
         @api_version = options.api_version || API_VERSION
         @api_key = options.api_key 
       end
