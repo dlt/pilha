@@ -28,13 +28,7 @@ module StackExchange
         end
 
         def find_by_tags(*tags)
-          if tags.last.is_a? Hash
-            options = tags.last
-            tags = tags[0, tags.size - 1]
-          else
-            options = {}
-          end
-
+          options = tags.last.is_a?(Hash) ? tags.pop : {}
           options.merge!(:conditions => { :tagged => tags.join('+') })
           request('/questions', nil, options)
         end
