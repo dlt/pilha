@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(path) unless $LOAD_PATH.include?(path)
 require 'rubygems'
 require 'fakeweb'
 require 'pilha'
-require 'spec'
+require 'rspec'
 require 'pp'
 
 include StackExchange
