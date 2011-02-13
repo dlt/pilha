@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name = "pilha"
-  gem.version = "0.1.9"
+  gem.version = "0.2.0"
   gem.authors = ["Dalto Curvelano Junior"]
   gem.description = "A ruby wrapper to the Stack Exchange (Stack Overflow and friends) API."
   gem.summary = "A ruby wrapper to the Stack Exchange (Stack Overflow and friends) API."
@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency('json', '>= 1.4.0')
   gem.add_development_dependency "rspec"
+  gem.add_development_dependency "fakeweb"
 end
