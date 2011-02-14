@@ -52,11 +52,10 @@ module StackExchange
 
       def api_method_path(pattern, options = {})
         pattern = normalize(pattern)
-        parts   = pattern.split('/').select { |part| part =~ /^:/ }
 
-        parts.each do |part|
-          key = part.sub(':', '').intern
-          pattern.sub!(part, options[key].to_s)
+        pattern.scan(/:(\w+)/).each do |part|
+          val = part.first
+          pattern.sub!(":" + val, options[val.to_sym].to_s)
         end
 
         pattern
