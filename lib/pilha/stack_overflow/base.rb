@@ -3,10 +3,6 @@ module StackExchange
     class Base 
 
       class << self
-        def client
-          @client ||= StackExchange::StackOverflow::Client.config
-        end
-
         def parse_with_class(hash, key, klass)
           case hash[key]
           when Hash
@@ -19,6 +15,10 @@ module StackExchange
         def request(path_pattern, id, options)
           options.merge! :id => id if id
           parse client.request(path_pattern, options)
+        end
+
+        def client
+          StackExchange::StackOverflow::Client.instance
         end
       end
 

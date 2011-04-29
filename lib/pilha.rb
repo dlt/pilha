@@ -29,18 +29,15 @@ module StackExchange
       attr_reader :api_key
 
       class << self 
-        def config &block
+
+        def config(&block)
           options = OpenStruct.new
           yield options if block_given?
-          init_client! Client.new(options)
+          @client = Client.new(options)
         end
 
-        def init_client!(client)
-          base_eigenclass = class << Base; self; end
-          base_eigenclass.send :define_method, :client do
-            @client = client
-          end
-          client
+        def instance
+          @client 
         end
       end
 
@@ -67,8 +64,7 @@ module StackExchange
       end
 
       def get(url)
-        stream = open(url) { |stream| Zlib::GzipReader.new(stream).read }
-        JSON.parse(stream)
+        JSON.parse(Zlib::GzipReader.new(open(url)).read)
       end
 
       def root_path
