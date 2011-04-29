@@ -31,7 +31,7 @@ Pilha aims to provide a ActiveRecord like interface for querying the StackExchan
 
 (The MIT License)
  
-Copyright (c) 2010-2010 Dalto Curvelano Junior
+Copyright (c) 2010-2011 Dalto Curvelano Junior
  
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

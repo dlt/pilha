@@ -40,6 +40,7 @@ module StackExchange
         def instance
           @client 
         end
+
       end
 
       def initialize(options = OpenStruct.new)
@@ -82,7 +83,7 @@ module StackExchange
           return '' unless params
 
           params = params.sort_by { |k, v| k.to_s }
-          pairs  = params.map { |key, value| "#{key}=#{value}" }
+          pairs  = params.map { |k, v| "#{k}=#{v}" }
 
           '?' + pairs.join('&')
         end
