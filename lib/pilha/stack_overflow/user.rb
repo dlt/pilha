@@ -10,7 +10,7 @@ module StackExchange
                                :user_questions_url, :user_answers_url, :user_favorites_url,
                                :user_tags_url, :user_badges_url, :user_timeline_url,
                                :user_mentioned_url, :user_comments_url, :user_reputation_url,
-                               :badge_counts
+                               :badge_counts, :accept_rate
 
       class << self 
         def all(options = {})
