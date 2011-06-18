@@ -11,6 +11,7 @@ describe StackExchange::StackOverflow::User do
       first_user = response.users.first
       first_user.should be_instance_of StackOverflow::User
       first_user.user_id.should == 349130
+      first_user.accept_rate.should_not be_nil
       first_user.user_type.should == "registered"
       first_user.creation_date.should == 1274719205
       first_user.display_name.should == "matias.valdenegro"
