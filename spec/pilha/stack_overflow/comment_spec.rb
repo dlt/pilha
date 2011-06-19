@@ -1,6 +1,11 @@
 require 'spec_helper'
 
 describe StackExchange::StackOverflow::Comment do
+  it 'should return all comments' do
+    response = StackOverflow::Comment.all
+    response.total.should == 7442138
+  end
+
   it 'should return a comment identified by its id' do 
     response = StackOverflow::Comment.find 1
 

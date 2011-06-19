@@ -8,6 +8,10 @@ module StackExchange
 
       class << self 
 
+        def all(options = {})
+          request('/comments/', nil, options) 
+        end
+
         def find(id, options = {})
           request('/comments/:id/', id, options)
         end

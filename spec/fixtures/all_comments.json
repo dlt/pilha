@@ -1,0 +1,573 @@
+{
+  "total": 7442138,
+  "page": 1,
+  "pagesize": 30,
+  "comments": [
+    {
+      "comment_id": 7507220,
+      "creation_date": 1308495447,
+      "owner": {
+        "user_id": 797832,
+        "user_type": "registered",
+        "display_name": "blacker",
+        "reputation": 1,
+        "email_hash": "d55561b216da9ce5a246f01076dfd813"
+      },
+      "reply_to_user": {
+        "user_id": 238704,
+        "user_type": "registered",
+        "display_name": "GregS",
+        "reputation": 6244,
+        "email_hash": "183876f2c5303b52a46586c6664bfc23"
+      },
+      "post_id": 6403043,
+      "post_type": "question",
+      "score": 0,
+      "body": "because i need to display the result in an editText view, and as far as i know it require a string to set the text."
+    },
+    {
+      "comment_id": 7507219,
+      "creation_date": 1308495437,
+      "owner": {
+        "user_id": 774936,
+        "user_type": "registered",
+        "display_name": "Matrix001",
+        "reputation": 187,
+        "email_hash": "57cb4fc52bcd3ad781689b8915cb9b40"
+      },
+      "post_id": 6403115,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Yeah, it is a bit long. The class that i am trying to save has got a table that i create programmatically"
+    },
+    {
+      "comment_id": 7507218,
+      "creation_date": 1308495425,
+      "owner": {
+        "user_id": 352708,
+        "user_type": "registered",
+        "display_name": "php-coder",
+        "reputation": 495,
+        "email_hash": "68dcad0efb04cad998822cc57112eb7c"
+      },
+      "reply_to_user": {
+        "user_id": 536169,
+        "user_type": "registered",
+        "display_name": "CHID",
+        "reputation": 163,
+        "email_hash": "07dee2a47e89a58af8d31efffa393eca"
+      },
+      "post_id": 6402917,
+      "post_type": "answer",
+      "score": 0,
+      "edit_count": 1,
+      "body": "@chid when <code>xargs</code> build command to run it append lines from stdin to command which your specify. In result it executes command like following: <code>find &#47; -name &#39;core.*&#39; or &#39;*.o&#39; path1 path2 path3</code>\n`"
+    },
+    {
+      "comment_id": 7507217,
+      "creation_date": 1308495424,
+      "owner": {
+        "user_id": 690629,
+        "user_type": "registered",
+        "display_name": "Zhao Xiang",
+        "reputation": 108,
+        "email_hash": "44869f72ff0a875e6319e73e73721ef4"
+      },
+      "reply_to_user": {
+        "user_id": 745098,
+        "user_type": "registered",
+        "display_name": "pratikshabhisikar",
+        "reputation": 1510,
+        "email_hash": "2dfa131fc8e8645862d8c6c142da19b8"
+      },
+      "post_id": 6402764,
+      "post_type": "answer",
+      "score": 0,
+      "body": "@pratikshabhisikar, I have found a sample from Apple matching your description, I&#39;m reading it."
+    },
+    {
+      "comment_id": 7507216,
+      "creation_date": 1308495410,
+      "owner": {
+        "user_id": 614141,
+        "user_type": "registered",
+        "display_name": "sfrj",
+        "reputation": 2150,
+        "email_hash": "251b4a8e3088f26eeadd3550e205818d"
+      },
+      "post_id": 6397159,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Also i had another doubt,almost forgot. Is there any way i could call the filter, from within a method in the managedbean and pass the request an response. Maybe that way is easier for me and i dont have to worry about matching the url?"
+    },
+    {
+      "comment_id": 7507215,
+      "creation_date": 1308495407,
+      "owner": {
+        "user_id": 701122,
+        "user_type": "registered",
+        "display_name": "NonatomicRetain",
+        "reputation": 13,
+        "email_hash": "03a596dec55d4d8820c8e841e55f2547"
+      },
+      "post_id": 6397610,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Thanks.  Yes I saw easyapns however this requires me to upgrade to a virtual private server or similar which costs a lot.  Something like Urban  Airship that was suggested would bring the cost way down if I&#39;m not mistaken.  Or is this somehow not the case?"
+    },
+    {
+      "comment_id": 7507214,
+      "creation_date": 1308495398,
+      "owner": {
+        "user_id": 545255,
+        "user_type": "unregistered",
+        "display_name": "Cleber Alberto",
+        "reputation": 49,
+        "email_hash": "64968e6e723d015142b3b6a53265e76f"
+      },
+      "post_id": 6403054,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Thanks, just what was needed."
+    },
+    {
+      "comment_id": 7507213,
+      "creation_date": 1308495393,
+      "owner": {
+        "user_id": 293791,
+        "user_type": "registered",
+        "display_name": "Dennis Zickefoose",
+        "reputation": 2707,
+        "email_hash": "3e929ad18698c8c3eccf910909001d0d"
+      },
+      "post_id": 6402166,
+      "post_type": "answer",
+      "score": 0,
+      "body": "&quot;Allow dependent calls of functions with internal linkage.&quot; Could you please elaborate on the difference between your two examples?  I&#39;m clearly missing something."
+    },
+    {
+      "comment_id": 7507212,
+      "creation_date": 1308495388,
+      "owner": {
+        "user_id": 399587,
+        "user_type": "registered",
+        "display_name": "hizki",
+        "reputation": 159,
+        "email_hash": "1ba6f868d32cd233b08a62c24991afdd"
+      },
+      "reply_to_user": {
+        "user_id": 408459,
+        "user_type": "registered",
+        "display_name": "BGerrissen",
+        "reputation": 3150,
+        "email_hash": "53794f9ca363c880fa815ac4534e2d36"
+      },
+      "post_id": 6403032,
+      "post_type": "question",
+      "score": 0,
+      "body": "Yes. Chrome Frame is installed. I tried it in a site which uses the html Video tag."
+    },
+    {
+      "comment_id": 7507211,
+      "creation_date": 1308495382,
+      "owner": {
+        "user_id": 596781,
+        "user_type": "registered",
+        "display_name": "Kerrek SB",
+        "reputation": 1286,
+        "email_hash": "d207f841115fa1ce805dcdc0f4d1e3cf"
+      },
+      "post_id": 6403078,
+      "post_type": "question",
+      "score": 0,
+      "body": "Please format your code."
+    },
+    {
+      "comment_id": 7507210,
+      "creation_date": 1308495366,
+      "owner": {
+        "user_id": 245265,
+        "user_type": "registered",
+        "display_name": "Emile Cormier",
+        "reputation": 4640,
+        "email_hash": "416db680915c487cfe3349aeb498ce44"
+      },
+      "post_id": 6402703,
+      "post_type": "question",
+      "score": 0,
+      "body": "Also keep in mind that containers allocate memory in increasingly larger chunks. Your C library will probably not have the same usage pattern, so you might not even see the same performance improvement as with containers."
+    },
+    {
+      "comment_id": 7507209,
+      "creation_date": 1308495366,
+      "owner": {
+        "user_id": 115145,
+        "user_type": "registered",
+        "display_name": "CommonsWare",
+        "reputation": 104280,
+        "email_hash": "5ff53c2b4f6cc66ee989bb9d9effe119"
+      },
+      "reply_to_user": {
+        "user_id": 532462,
+        "user_type": "registered",
+        "display_name": "turtleboy",
+        "reputation": 197,
+        "email_hash": "2c7a08f7f68faf7c3247fd5b1ad2b91a"
+      },
+      "post_id": 6402112,
+      "post_type": "answer",
+      "score": 0,
+      "body": "@turtleboy: Then fix your algorithm, while sticking with integer (fixed-point) math wherever possible. Fixed-point math is not especially hard. For example, most games (Android and otherwise) use fixed-point math to minimize overhead, so valuable CPU time can be spent on other things like game physics and AI. If fixed-point math confuses you, consider opening fresh StackOverflow questions -- tagged with the <code>java</code> tag -- to help you convert your algorithm to avoid as much floating-point as possible."
+    },
+    {
+      "comment_id": 7507208,
+      "creation_date": 1308495361,
+      "owner": {
+        "user_id": 496354,
+        "user_type": "registered",
+        "display_name": "jullin",
+        "reputation": 124,
+        "email_hash": "bcded23614d2bc8e7f5698dff74743c0"
+      },
+      "post_id": 6402707,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Why there is a need of Expression.Convert?"
+    },
+    {
+      "comment_id": 7507207,
+      "creation_date": 1308495359,
+      "owner": {
+        "user_id": 805395,
+        "user_type": "unregistered",
+        "display_name": "Evgeny",
+        "reputation": 1,
+        "email_hash": "e7f9fa02303dc1006325ce40bcadaa73"
+      },
+      "post_id": 6402753,
+      "post_type": "question",
+      "score": 0,
+      "body": "I know that is in the ini file, but it is too big for me to convert it manually."
+    },
+    {
+      "comment_id": 7507206,
+      "creation_date": 1308495355,
+      "owner": {
+        "user_id": 150305,
+        "user_type": "registered",
+        "display_name": "yannis",
+        "reputation": 240,
+        "email_hash": "ad0d03aec03eb09398cb09cea2bcb6cd"
+      },
+      "reply_to_user": {
+        "user_id": 343238,
+        "user_type": "registered",
+        "display_name": "Cyclotis04",
+        "reputation": 1782,
+        "email_hash": "8757490f3a412ec98b36e35c3d2d5e09"
+      },
+      "post_id": 6400158,
+      "post_type": "answer",
+      "score": 0,
+      "body": "@Cyclotis04 Thanks for all the help. You are right probably the best way is to write a short parser, my guess it will probably also perform faster."
+    },
+    {
+      "comment_id": 7507205,
+      "creation_date": 1308495347,
+      "owner": {
+        "user_id": 492405,
+        "user_type": "registered",
+        "display_name": "vcsjones",
+        "reputation": 4980,
+        "email_hash": "11317ff0b6f8a8a910edcb613541d9d3"
+      },
+      "reply_to_user": {
+        "user_id": 804913,
+        "user_type": "unregistered",
+        "display_name": "Jack",
+        "reputation": 1,
+        "email_hash": "c47bba4fcc7d0017af7516370859c7a0"
+      },
+      "post_id": 6403046,
+      "post_type": "question",
+      "score": 0,
+      "body": "@Jack add comments to people&#39;s answers asking for clarifications, things you don&#39;t understand, or if the answer is close and you need a little more help."
+    },
+    {
+      "comment_id": 7507203,
+      "creation_date": 1308495341,
+      "owner": {
+        "user_id": 396183,
+        "user_type": "registered",
+        "display_name": "ultimatebuster",
+        "reputation": 1389,
+        "email_hash": "6e975490cf2efb6a508b57bbbab43ffe"
+      },
+      "post_id": 6403073,
+      "post_type": "question",
+      "score": 0,
+      "body": "It&#39;s recommended that you use an existing framework such as gevent or twisted to aid you with this task. I&#39;m not entirely sure what you need to do."
+    },
+    {
+      "comment_id": 7507202,
+      "creation_date": 1308495340,
+      "owner": {
+        "user_id": 370593,
+        "user_type": "registered",
+        "display_name": "Whatang",
+        "reputation": 197,
+        "email_hash": "207f14888e7809c78616d4d416eb5a52"
+      },
+      "reply_to_user": {
+        "user_id": 395760,
+        "user_type": "registered",
+        "display_name": "delnan",
+        "reputation": 17261,
+        "email_hash": "30f53b76d8c47b32f409df5345a3f087"
+      },
+      "post_id": 6397563,
+      "post_type": "answer",
+      "score": 0,
+      "body": "ahh, good point, hadn&#39;t thought of that"
+    },
+    {
+      "comment_id": 7507201,
+      "creation_date": 1308495339,
+      "owner": {
+        "user_id": 13302,
+        "user_type": "registered",
+        "display_name": "marc_s",
+        "reputation": 125702,
+        "email_hash": "b4779212f57ff2e9549ea90a4499c2d7"
+      },
+      "reply_to_user": {
+        "user_id": 758691,
+        "user_type": "registered",
+        "display_name": "Pushpendra Kuntal",
+        "reputation": 273,
+        "email_hash": "74bc313217f186115675379d3109b63e"
+      },
+      "post_id": 6402625,
+      "post_type": "question",
+      "score": 0,
+      "edit_count": 1,
+      "body": "@Pushpendra Kuntal: please <b>don&#39;t</b> post stuff like that into comments - it&#39;s <b>really hard to read</b>. Instead, please <b>update</b> your original question by <b>editing</b> it to provide that information!"
+    },
+    {
+      "comment_id": 7507200,
+      "creation_date": 1308495332,
+      "owner": {
+        "user_id": 76368,
+        "user_type": "registered",
+        "display_name": "SMka",
+        "reputation": 1034,
+        "email_hash": "2342a298793a11773ad8f6e8868b1950"
+      },
+      "post_id": 6352430,
+      "post_type": "question",
+      "score": 0,
+      "body": "do not forget to accept answers ;)"
+    },
+    {
+      "comment_id": 7507199,
+      "creation_date": 1308495330,
+      "owner": {
+        "user_id": 797832,
+        "user_type": "registered",
+        "display_name": "blacker",
+        "reputation": 1,
+        "email_hash": "d55561b216da9ce5a246f01076dfd813"
+      },
+      "reply_to_user": {
+        "user_id": 805439,
+        "user_type": "unregistered",
+        "display_name": "lex",
+        "reputation": 6,
+        "email_hash": "5798b90a7ba2b00c78c9009e33fb1fc6"
+      },
+      "post_id": 6403069,
+      "post_type": "answer",
+      "score": 0,
+      "body": "you mean the android virtual device that come with the SDK right? then yes, basically, the processor on your PC will &quot;translate&quot; your code into a language that would run the exact same way as your android device, so it would use more processing power as your PC speak a different language as your android device."
+    },
+    {
+      "comment_id": 7507198,
+      "creation_date": 1308495325,
+      "owner": {
+        "user_id": 470682,
+        "user_type": "registered",
+        "display_name": "mkso",
+        "reputation": 67,
+        "email_hash": "4c5d88314e94d0edae14e0adcf0cf135"
+      },
+      "post_id": 6400606,
+      "post_type": "question",
+      "score": 0,
+      "body": "can you paste your updated java code."
+    },
+    {
+      "comment_id": 7507197,
+      "creation_date": 1308495320,
+      "owner": {
+        "user_id": 126916,
+        "user_type": "registered",
+        "display_name": "Abhinav Sarkar",
+        "reputation": 4703,
+        "email_hash": "4d29918c109bc75d2a1fd8420660d72b"
+      },
+      "post_id": 4909889,
+      "post_type": "answer",
+      "score": 0,
+      "body": "Won&#39;t doing this result in a memory leak in a long running process since the reference to the runnable will still be kept by the scheduledExecutor?"
+    },
+    {
+      "comment_id": 7507196,
+      "creation_date": 1308495309,
+      "owner": {
+        "user_id": 295783,
+        "user_type": "registered",
+        "display_name": "mplungjan",
+        "reputation": 6907,
+        "email_hash": "da548667c834109a7059b51060e53dff"
+      },
+      "reply_to_user": {
+        "user_id": 560648,
+        "user_type": "registered",
+        "display_name": "Tomalak Geret'kal",
+        "reputation": 20002,
+        "email_hash": "3189f1e006358ec6c65481b9605cd0e3"
+      },
+      "post_id": 6401915,
+      "post_type": "question",
+      "score": 0,
+      "body": "@Tomalak - he could have many vars with suffixes matching various IDs. Anyway, an associative array is of course how to do this"
+    },
+    {
+      "comment_id": 7507195,
+      "creation_date": 1308495305,
+      "owner": {
+        "user_id": 784449,
+        "user_type": "registered",
+        "display_name": "Sven",
+        "reputation": 2712,
+        "email_hash": "6015fdf4f49c19cfae4df28131c5bb44"
+      },
+      "reply_to_user": {
+        "user_id": 485098,
+        "user_type": "registered",
+        "display_name": "Vercas",
+        "reputation": 1068,
+        "email_hash": "cbf9dbf1c784f90e2533dd711c440385"
+      },
+      "post_id": 6403067,
+      "post_type": "question",
+      "score": 0,
+      "body": "@Vercas: no, his code works fine in C#."
+    },
+    {
+      "comment_id": 7507194,
+      "creation_date": 1308495303,
+      "owner": {
+        "user_id": 417562,
+        "user_type": "registered",
+        "display_name": "lonesomeday",
+        "reputation": 27615,
+        "email_hash": "de4385849864206eebaefa5c801d21f1"
+      },
+      "reply_to_user": {
+        "user_id": 774612,
+        "user_type": "registered",
+        "display_name": "Niklas",
+        "reputation": 4676,
+        "email_hash": "cd2699dedd7a4c7ac0c396739a7eeec9"
+      },
+      "post_id": 6403075,
+      "post_type": "question",
+      "score": 0,
+      "body": "@Niklas, @BeingSimpler On the one hand, it&#39;s not great that the user has accepted no answers. However, the answers to the questions he&#39;s posted haven&#39;t been great, and no-one&#39;s ever asked him to accept answers before. He may not even know that it&#39;s possible. Your comments are a bit much."
+    },
+    {
+      "comment_id": 7507193,
+      "creation_date": 1308495294,
+      "owner": {
+        "user_id": 507525,
+        "user_type": "registered",
+        "display_name": "n3on",
+        "reputation": 305,
+        "email_hash": "72804f06f37c50563c646f6da508cec8"
+      },
+      "reply_to_user": {
+        "user_id": 17279,
+        "user_type": "registered",
+        "display_name": "zoul",
+        "reputation": 19004,
+        "email_hash": "a08771c878da3724492f3056d5eca168"
+      },
+      "post_id": 6402918,
+      "post_type": "question",
+      "score": 0,
+      "edit_count": 1,
+      "body": "ok right. Is it possible to get notified if the current focused application changes?"
+    },
+    {
+      "comment_id": 7507192,
+      "creation_date": 1308495285,
+      "owner": {
+        "user_id": 41071,
+        "user_type": "registered",
+        "display_name": "svick",
+        "reputation": 6586,
+        "email_hash": "0ec0f5be7749c8cc8ccda4a809103f36"
+      },
+      "post_id": 6402941,
+      "post_type": "question",
+      "score": 0,
+      "body": "What should happen if you are unable to meet the requirement?"
+    },
+    {
+      "comment_id": 7507191,
+      "creation_date": 1308495274,
+      "owner": {
+        "user_id": 125083,
+        "user_type": "registered",
+        "display_name": "goliatone",
+        "reputation": 1062,
+        "email_hash": "b28c54608965139b5dea3f4d9fc46189"
+      },
+      "reply_to_user": {
+        "user_id": 230561,
+        "user_type": "registered",
+        "display_name": "jeremynealbrown",
+        "reputation": 1999,
+        "email_hash": "5e16cb1ab5fdb3bdc7552341c34ea2d5"
+      },
+      "post_id": 6398818,
+      "post_type": "answer",
+      "score": 0,
+      "body": "As @jeremynealbrown points out, it is a hack...very bad things would happen if for any reason the loader fails. It would be wise to add event listers for errors and handle those so that the player does not stay blocked on that loop."
+    },
+    {
+      "comment_id": 7507190,
+      "creation_date": 1308495241,
+      "owner": {
+        "user_id": 187697,
+        "user_type": "registered",
+        "display_name": "keyboardP",
+        "reputation": 9810,
+        "email_hash": "ec1a4f37b9bf804f6fbf1ea1d4e6cf5c"
+      },
+      "reply_to_user": {
+        "user_id": 804233,
+        "user_type": "registered",
+        "display_name": "lala",
+        "reputation": 10,
+        "email_hash": "316a8cf26e51f898e8457ca972583738"
+      },
+      "post_id": 6396312,
+      "post_type": "answer",
+      "score": 0,
+      "edit_count": 1,
+      "body": "@lala - No probs :) For rep, you can press the <code>up arrow</code> next to my answer. Thanks! "
+    }
+  ]
+}
