@@ -9,6 +9,10 @@ module StackExchange
 
       class << self
 
+        def all(options = {})
+          request('/answers', nil, options)
+        end
+
         def find(id, options = {})
           request('/answers/:id', id, options).answers.first
         end

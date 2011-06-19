@@ -1,6 +1,16 @@
 require 'spec_helper'
 
 describe StackExchange::StackOverflow::Answer do 
+  it 'should return all answers' do
+    response = StackOverflow::Answer.all
+    response.pagesize.should == 30
+    response.page.should == 1
+    response.total.should == 3975771
+
+    answer = response.answers.first
+    answer.accepted.should be_false
+    answer.title.should == "Reading a text file - fopen vs. ifstream"
+  end
 
   it 'should return a answer identified by its id (without body)' do
     answer = StackOverflow::Answer.find(666)
