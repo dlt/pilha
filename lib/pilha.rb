@@ -23,7 +23,7 @@ module StackExchange
 
     class Client
       URL = 'http://api.stackoverflow.com/'
-      API_VERSION = '1.0'
+      API_VERSION = '1.1'
 
       attr_reader :url
       attr_reader :api_version
