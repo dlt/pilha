@@ -22,6 +22,17 @@ Pilha aims to provide a ActiveRecord like interface for querying the StackExchan
   Badge.all # returns all badges
   User.find_by_badge_id(2) # returns all users awarded by the badge identified with 'id'
 
+As all response objects returned by Pilha are instances of OpenStruct, so you need to call
+the 'api_methods' on a desired class to see which methods of the OpenStruct were added
+by the gem.
+
+  Question.api_methods
+
+  # => [:@struct, :question_id, :tags, :creation_date, :last_activity_date, :up_vote_count,
+      :down_vote_count, :view_count, :score, :community_owned, :title, :body, :answers,
+      :answer_count, :accepted_answer_id, :favorite_count, :question_timeline_url,
+      :question_comments_url, :question_answers_url, :owner]
+
 = Contributors
 
   Michael Barton (http://github.com/michaelbarton)
