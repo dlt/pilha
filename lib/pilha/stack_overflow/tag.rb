@@ -1,7 +1,6 @@
 module StackExchange
   module StackOverflow
     class Tag < Base
-      extend Forwardable
 
       def_delegators :@struct, :name, :count, :user_id
 

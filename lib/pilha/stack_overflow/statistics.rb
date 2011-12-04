@@ -2,8 +2,6 @@ module StackExchange
   module StackOverflow
     class Statistics < Base
 
-      extend Forwardable
-
       def_delegators :@struct, :total_questions, :total_unanswered, :total_answers,
                               :total_comments, :total_votes, :total_badges,
                               :total_users, :questions_per_minute, :answers_per_minute,

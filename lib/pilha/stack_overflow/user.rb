@@ -1,7 +1,6 @@
 module StackExchange
   module StackOverflow
     class User < Base
-      extend Forwardable
 
       def_delegators :@struct, :user_id, :user_type, :creation_date, :display_name,
                                :reputation, :email_hash, :age, :last_access_date,

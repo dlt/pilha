@@ -1,6 +1,7 @@
 module StackExchange
   module StackOverflow
     class Base 
+      extend Forwardable
 
       class << self
         def parse_with_class(hash, key, klass)

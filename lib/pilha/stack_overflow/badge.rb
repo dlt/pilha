@@ -2,8 +2,6 @@ module StackExchange
   module StackOverflow
     class Badge < Base
 
-      extend Forwardable
-
       def_delegators :@struct, :badge_id, :rank, :name, :description,
                                :award_count, :tag_based, :badges_recipients_url
 

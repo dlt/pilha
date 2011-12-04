@@ -1,7 +1,6 @@
 module StackExchange
   module StackOverflow
     class Comment < Base
-      extend Forwardable
 
       def_delegators :@struct, :comment_id, :creation_date, :owner, :post_id,
                      :post_type, :score, :body
