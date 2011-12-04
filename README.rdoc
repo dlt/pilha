@@ -22,6 +22,22 @@ Pilha aims to provide a ActiveRecord like interface for querying the StackExchan
   Badge.all # returns all badges
   User.find_by_badge_id(2) # returns all users awarded by the badge identified with 'id'
 
+  q = Question.find_by_user_id(91970) # returns all the questions for user with id = '91970'
+  q.questions.first # returns the first question in the collection of questions returned
+  q.questions.count # returns the number of questions returned in that query
+
+  t = Question.find_by_tags('Ruby') # returns all the questions that are tagged 'Ruby'
+  
+  List of available methods for Questions are:
+  all(options = {})
+  find(id, options = {})
+  find_by_user_id(id, options = {})
+  find_favorites_by_user_id(id, options = {})
+  find_by_tags(*tags)
+  unanswered(options = {})
+  parse(response)
+  id
+
 = Contributors
 
   Michael Barton (http://github.com/michaelbarton)
