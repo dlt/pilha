@@ -2,7 +2,7 @@ module StackExchange
   module StackOverflow
     class Tag < Base
 
-      def_delegators :@struct, :name, :count, :user_id
+      setup_delegators :@struct, :name, :count, :user_id
 
       class << self
         def all(options = {})

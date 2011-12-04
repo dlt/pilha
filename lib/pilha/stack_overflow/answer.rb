@@ -2,9 +2,9 @@ module StackExchange
   module StackOverflow
     class Answer < Base
       
-      def_delegators :@struct, :answer_id, :accepted, :answer_comments_url, :question_id,
-                     :owner, :creation_date, :last_activity_date, :up_vote_count, :down_vote_count,
-                     :view_count, :score, :community_owned, :title, :comments, :body
+      setup_delegators :@struct, :answer_id, :accepted, :answer_comments_url, :question_id,
+                       :owner, :creation_date, :last_activity_date, :up_vote_count, :down_vote_count,
+                       :view_count, :score, :community_owned, :title, :comments, :body
 
       class << self
 

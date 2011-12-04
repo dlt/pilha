@@ -2,7 +2,7 @@ module StackExchange
   module StackOverflow
     class Comment < Base
 
-      def_delegators :@struct, :comment_id, :creation_date, :owner, :post_id,
+      setup_delegators :@struct, :comment_id, :creation_date, :owner, :post_id,
                      :post_type, :score, :body
 
       class << self 

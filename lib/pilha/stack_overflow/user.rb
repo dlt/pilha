@@ -2,7 +2,7 @@ module StackExchange
   module StackOverflow
     class User < Base
 
-      def_delegators :@struct, :user_id, :user_type, :creation_date, :display_name,
+      setup_delegators :@struct, :user_id, :user_type, :creation_date, :display_name,
                                :reputation, :email_hash, :age, :last_access_date,
                                :website_url, :location, :about_me, :question_count,
                                :answer_count, :view_count, :up_vote_count, :down_vote_count,

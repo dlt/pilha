@@ -4,6 +4,13 @@ module StackExchange
       extend Forwardable
 
       class << self
+        attr_reader :api_methods
+
+        def setup_delegators(*delegators)
+          @api_methods = delegators
+          def_delegators *delegators
+        end
+
         def parse_with_class(hash, key, klass)
           case hash[key]
           when Hash
@@ -26,6 +33,11 @@ module StackExchange
       def initialize(hash)
         @struct = OpenStruct.new hash
       end
+
+      def api_methods
+        self.class.api_methods 
+      end
+
     end
   end
 end

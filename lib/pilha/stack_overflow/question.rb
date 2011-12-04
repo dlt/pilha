@@ -2,7 +2,7 @@ module StackExchange
   module StackOverflow
     class Question < Base
 
-      def_delegators :@struct, :question_id, :tags, :creation_date, :last_activity_date,
+      setup_delegators :@struct, :question_id, :tags, :creation_date, :last_activity_date,
                                :up_vote_count, :down_vote_count, :view_count, :score,
                                :community_owned, :title, :body, :answers, :answer_count,
                                :accepted_answer_id, :favorite_count, :question_timeline_url,
