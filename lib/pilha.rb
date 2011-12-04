@@ -19,7 +19,7 @@ require 'pilha/stack_overflow/statistics'
 module StackExchange
   module StackOverflow
 
-    VERSION = '0.2.1'
+    VERSION = '0.2.2'
 
     class Client
       URL = 'http://api.stackoverflow.com/'
